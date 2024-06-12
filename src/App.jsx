@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Hero from "./Hero";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
-    <div className='flex items-center justify-center h-screen text-2xl font-bold'>
-      hi gupta gandu
+    <div className="">
+      {/* <Navbar /> */}
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
