@@ -78,7 +78,7 @@ const Hero = () => {
               <div className=" border border-teal-600 rounded-full p-6 mx-auto w-80 h-80 md:w-96 md:h-96 flex items-center justify-center ">
                 <div className="border border-teal-100  rounded-full p-3">
                   <img
-                    src="/src/assets/Ellipse 10.png"
+                    src="./Ellipse 10.png"
                     alt="Team Working"
                     className="rounded-full w-full h-full object-cover"
                   />
