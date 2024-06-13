@@ -51,7 +51,7 @@ const Services = () => {
   return (
     <section className="py-12 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-2xl font-bold text-center text mb-8 text-blue-400">
+        <h2 className="text-2xl font-bold text-center text mb-8 text-teal-400">
           Our Services
         </h2>
         <h3 className="text-3xl font-semibold text-center mb-8">
@@ -61,13 +61,16 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex flex-col items-left p-6 bg-gray-100 rounded-lg shadow-lg hover:text-white hover:bg-gray-900 transition duration-300 cursor-pointer"
+              className="flex flex-col items-left p-6 bg-gray-100 rounded-lg shadow-lg hover:text-white hover:bg-black transition duration-300 cursor-pointer"
             >
               <div className="text-3xl mb-4">{service.icon}</div>
               <h4 className="text-xl  font-semibold mb-2">{service.title}</h4>
               <p className="active:text-gray-700 text-left ">
                 {service.description}
               </p>
+              {/* <button className="bg-black text-white hover:bg-white hover:text-black py-2 px-4 rounded-full font-semibold mt-4">
+                Project Here
+              </button> */}
             </div>
           ))}
         </div>
