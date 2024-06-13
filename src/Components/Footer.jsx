@@ -267,7 +267,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:w-1/3 text-center md:text-left space-y-4">
             <div className="flex justify-center items-center">
-              <img src="/src/assets/instagram logo.jpg" className="h-9" />
+              <img src="./instagram logo.jpg" className="h-9" />
               <h2 className="text-white text-2xl font-bold">Social Shine</h2>
             </div>
             <p>
