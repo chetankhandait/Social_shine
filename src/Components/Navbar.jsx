@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <div className="flex items-center">
           <img
-            src="/src/assets/instagram logo.jpg"
+            src="./instagram logo.jpg"
             alt="Canvix Logo"
             className="h-8 "
           />
