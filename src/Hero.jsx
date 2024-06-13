@@ -4,13 +4,13 @@ const Hero = () => {
   return (
     <div>
       {/* Navbar */}
-      <nav className="bg-gray-900 text-white py-4">
+      <nav className="bg-black text-white py-4">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
           <div className="flex items-center">
             <img
-              src="/src/assets/instagram logo.jpg"
+              src="./logo.png"
               alt="Canvix Logo"
-              className="h-8 "
+              className="h-9 "
             />
             <span className="text-xl font-bold ml-2">SocialShine</span>
           </div>
