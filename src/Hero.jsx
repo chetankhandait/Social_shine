@@ -7,11 +7,7 @@ const Hero = () => {
       <nav className="bg-black text-white py-4">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
           <div className="flex items-center">
-            <img
-              src="./logo.png"
-              alt="Canvix Logo"
-              className="h-9 "
-            />
+            <img src="./logo.png" alt="Canvix Logo" className="h-9 " />
             <span className="text-xl font-bold ml-2">SocialShine</span>
           </div>
           <div className="hidden md:flex space-x-8 text-sm">
@@ -33,8 +29,8 @@ const Hero = () => {
 
       {/* Hero Section */}
       <div className="bg-black text-white min-h-screen flex items-center justify-center px-4 pt-4">
-        <div className="max-w-screen-xl md:gap-1 mx-auto flex flex-col md:flex-row items-center">
-          <div className="flex-1 text-center md:text-left md:px-16  order-2 md:order-1">
+        <div className="max-w-screen-xl  mx-auto flex flex-col md:flex-row items-center">
+          <div className="flex-1 text-center md:text-left md:px-8  order-2 md:order-1">
             <h1 className="text-3xl lg:text-5xl md:text-3xl font-bold mb-6">
               Ready to take your{" "}
               <span className="text-teal-400">Business Growth</span> <br />

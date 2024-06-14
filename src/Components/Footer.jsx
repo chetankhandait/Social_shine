@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Pages */}
           <div className="md:w-1/3 space-y-4">
             <h3 className="text-white font-bold">Pages</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li>Home</li>
               <li>Home 2</li>
               <li>About</li>
@@ -53,7 +53,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter email here"
-                className="px-4 py-2 w-full max-w-xs  focus:outline-none rounded-full"
+                className="px-4 py-2 w-full max-w-xs text-black focus:outline-none rounded-full"
               />
               <button className="bg-black text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition-colors">
                 Subscribe
