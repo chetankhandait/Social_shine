@@ -6,6 +6,7 @@ import Services from "./Components/Service";
 import Testimonial from "./Components/Testimonial";
 import AboutUs from "./Components/AboutUs";
 import Process from "./Components/Process";
+import ShowCase from "./Components/ShowCase";
 // import Showcase from "./Components/Showcase";
 // import Showcase from "./Showcase";
 
@@ -16,6 +17,7 @@ const App = () => {
       <Hero />
       <Services />
       {/* <Showcase /> */}
+      <ShowCase/>
       <AboutUs />
       <Process />
       <Testimonial />
