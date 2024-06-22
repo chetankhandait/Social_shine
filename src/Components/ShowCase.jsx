@@ -5,7 +5,7 @@ const ShowCase = () => {
     <div>
         <div className='text-center my-3 text-4xl font-semibold '>
 
-        <h3>Recent Showcase</h3>
+        <h3>Recent </h3>
         </div>
       <div class=" w-full grid grid-cols-2 gap-7 md:grid-cols-2 md:w-2/3 mx-auto">
   <div class="grid gap-7 ">
