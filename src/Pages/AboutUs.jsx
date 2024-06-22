@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AboutUs = () => {
-  return (
-    <div className='h-screen bg-green-400 '>
-      hi
-    </div>
-  )
-}
+  return <div>hi</div>;
+};
 
-export default AboutUs
+export default AboutUs;
