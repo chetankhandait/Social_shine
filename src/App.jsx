@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import AboutUs from "./Pages/AboutUs";
-// import Services from "./Components/Service";
+import Services from "./Components/Service";
 import SeprateService from "./SeprateService";
 import WorkSample from "./Pages/WorkSample";
 
