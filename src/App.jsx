@@ -1,28 +1,24 @@
 import React from "react";
-import Hero from "./Hero";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+ 
+ import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Home from "./Home";
+import AboutUs from "./Pages/AboutUs";
 import Services from "./Components/Service";
-import Testimonial from "./Components/Testimonial";
-import AboutUs from "./Components/AboutUs";
-import Process from "./Components/Process";
-import ShowCase from "./Components/ShowCase";
-// import Showcase from "./Components/Showcase";
-// import Showcase from "./Showcase";
+import SeprateService from "./SeprateService";
+import WorkSample from "./Pages/WorkSample";
 
 const App = () => {
   return (
-    <div className="">
-      {/* <Navbar /> */}
-      <Hero />
-      <Services />
-      {/* <Showcase /> */}
-      <ShowCase/>
-      <AboutUs />
-      <Process />
-      <Testimonial />
-      <Footer />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about-us" element={<AboutUs/>}/>
+      <Route path="/services" element={<SeprateService/>}/>
+      <Route path="/work-sample" element={<WorkSample/>}/>
+
+    </Routes>
+    
+    </BrowserRouter>
   );
 };
 
