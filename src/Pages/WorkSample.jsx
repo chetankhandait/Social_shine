@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from '../Components/Footer'
+import Navbar from '../Components/Navbar'
 
 const WorkSample = () => {
   return (
     <>
+    <Navbar/>
     <div className='w-[94%] mt-10  mx-auto '>
 
     <div>
@@ -93,13 +96,22 @@ const WorkSample = () => {
       </div>
     </div>
     {/* // banner */}
-        <div>
-          <div className=" bg-url[('https://s3-alpha-sig.figma.com/img/11fa/3dfe/e2cb2aa72099d55b01a6f65527ce42aa?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jiNa1IJq8~v-A7hJMxoBR0-GqMmLoLEwrEssErL75OSkFOVSOj-zKgb8WUZz4FRqyNWFycm6OZFCnYIc8dUAkQDvxe4Wz6fzNA8gCNsQa9pLJzFq2C7X-sv4v0b8TkgKlxFdXVFPZjMN5SQUhkTumvJ1fXpd~LaaN1U77HSLpHxSpISfhXuVbzLBKV4ZwVqcNBWrffHghjD9QNN4Rbkob9st9mSpsaObVAOARhixouO9Jt9hSL0Vw6cUHNB~S7A3c-9xBVo5F9vyE5Zn1PB4SGPdy-mYcf1SnUmrwgaJEbQSYfem127CYi6vydn6XM7J~x0EmVb4dQqIyPNZNRkt6w__')]  ">
-            
-                letss conect
+        <div className='my-10'>
+          <div className=" relative  flex items-center justify-center flex-col rounded-lg">
+            <div className='bg-[#121212CC] absolute w-full h-[209px] rounded-3xl'>
+                 
+            </div>
+            <img src="./bg.jpeg" alt="" className='w-[1400px]
+            h-[209px] object-cover' />
+                <div className='text-center absolute top-1/4 flex flex-col gap-8 items-center'>
+
+               <h2 className='text-4xl text-white' >Enough talk, let’s get to work</h2>
+               <button className='border px-4 py-1 rounded-full text-white'>Get in touch </button>
+                </div>
           </div>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }
