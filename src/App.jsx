@@ -6,6 +6,7 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Components/Service";
 import SeprateService from "./SeprateService";
 import WorkSample from "./Pages/WorkSample";
+import ContactUs from "./Pages/ContactUs";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<SeprateService />} />
+        <Route path="/contactus" element={<ContactUs />} />
         <Route path="/work-sample" element={<WorkSample />} />
       </Routes>
     </BrowserRouter>
