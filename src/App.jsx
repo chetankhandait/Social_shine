@@ -7,6 +7,7 @@ import Services from "./Components/Service";
 import SeprateService from "./SeprateService";
 import WorkSample from "./Pages/WorkSample";
 import ContactUs from "./Pages/ContactUs";
+import Dynamic from "./Pages/Dynamic";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/work-sample" element={<WorkSample />} />
+        <Route path="/dynamic" element={<Dynamic />} />
+        
       </Routes>
     </BrowserRouter>
   );
