@@ -5,5 +5,13 @@
 @tailwind utilities;
 
 * {
-  font-family: serif;
+  font-family: 'Roboto Serif';
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
 }
