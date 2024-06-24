@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar";
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
-      {/* <header className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <header className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-3xl font-bold">Canvix</div>
         <button
           onClick={toggleMenu}
@@ -83,8 +83,8 @@ const App = () => {
             </Link>
           </nav>
         </div>
-      </header> */}
-
+      </header>{" "}
+      */}
       {/* <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-4xl">
         <div className="px-4">
           <div className="flex items-center justify-between gap-5">
@@ -218,7 +218,6 @@ const App = () => {
           </div>
         </div>
       </main>
-
       <footer className="container mx-auto px-6 pb-12">
         <div className="text-center text-gray-400">
           Trusted by Leading Brands
