@@ -20,7 +20,6 @@ const AboutUs = () => {
       <Team />
       <FAQ />
       <Testimonial />
-
       <Footer />
     </>
   );
