@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 // import "./App.css";
 
 const App = () => {
@@ -48,34 +49,42 @@ const App = () => {
           )}
         </button>
         <nav className="hidden md:flex space-x-8">
-          <a href="#home" className="hover:text-gray-400">
+          <Link to="/" className="hover:text-teal-400">
             Home
-          </a>
-          <a href="#about" className="hover:text-gray-400">
+          </Link>
+          <Link to="/about-us" className="hover:text-teal-400">
             About
-          </a>
-          <a href="#contact" className="hover:text-gray-400">
-            Contact Us
-          </a>
+          </Link>
+          <Link to="/services" className="hover:text-teal-400">
+            Services
+          </Link>
+          <Link to="/work-sample" className="hover:text-teal-400">
+            Work Sample
+          </Link>
         </nav>
-        <button className="hidden md:block bg-white text-gray-900 px-4 py-2 rounded-full font-bold">
-          Get in touch
-        </button>
+        <Link to="/contactus">
+          <button className="hidden md:block bg-white text-gray-900 px-4 py-2 rounded-full font-bold">
+            Get in touch
+          </button>
+        </Link>
         <div
           className={`md:hidden absolute top-16 right-2 bg-gray-800 rounded-lg ${
             isOpen ? "block" : "hidden"
           }`}
         >
           <nav className="flex flex-col space-y-4 p-4">
-            <a href="#home" className="hover:text-gray-400">
+            <Link to="/" className="hover:text-teal-400">
               Home
-            </a>
-            <a href="#about" className="hover:text-gray-400">
+            </Link>
+            <Link to="/about-us" className="hover:text-teal-400">
               About
-            </a>
-            <a href="#contact" className="hover:text-gray-400">
-              Contact Us
-            </a>
+            </Link>
+            <Link to="/services" className="hover:text-teal-400">
+              Services
+            </Link>
+            <Link to="/work-sample" className="hover:text-teal-400">
+              Work Sample
+            </Link>
           </nav>
         </div>
       </header>

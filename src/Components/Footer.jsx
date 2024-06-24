@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-12">
           {/* Logo and Description */}
-          <div className="md:w-1/3 text-center md:text-left space-y-4">
+          <div className="md:w-1/3 text-center space-y-4">
             <div className="flex justify-center items-center">
               <img src="./instagram logo.jpg" className="h-9" />
               <h2 className="text-white text-2xl font-bold">Social Shine</h2>
@@ -26,12 +26,12 @@ const Footer = () => {
           <div className="md:w-1/3 space-y-4">
             <h3 className="text-white font-bold">Pages</h3>
             <ul className="space-y-3">
-              <li>Home</li>
-              <li>Home 2</li>
-              <li>About</li>
-              <li>Contact Us</li>
-              <li>Portfolio</li>
-              <li>Portfolio Single</li>
+              <li className="cursor-pointer">Home</li>
+              <li className="cursor-pointer">About</li>
+              <li className="cursor-pointer">Services</li>
+              <li className="cursor-pointer">Contact Us</li>
+              {/* <li>Portfolio</li>
+              <li>Portfolio Single</li> */}
             </ul>
           </div>
           {/* Utility Pages */}
