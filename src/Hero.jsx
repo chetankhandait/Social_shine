@@ -8,7 +8,7 @@ const App = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-black text-white">
       <header className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-3xl font-bold">Canvix</div>
         <button
