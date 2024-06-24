@@ -6,16 +6,17 @@ import FAQ from "../Components/FAQ";
 import WhyChooseUs from "../Components/WhyChooseUs";
 import SeprateNavbar from "./SeprateNavbar";
 import Testimonial from "../Components/Testimonial";
+import Navbar from "../Components/Navbar";
 // import Navbar from "../Components/Navbar";
 
 const AboutUs = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <SeprateNavbar />
-      <div className="w-[94%] mx-auto">
-        <AboutIntro />
-      </div>
+      <Navbar />
+
+      <AboutIntro />
+
       <WhyChooseUs />
       <Team />
       <FAQ />
