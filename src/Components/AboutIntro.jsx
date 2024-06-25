@@ -3,7 +3,7 @@ import backgroundImage from "/bg.jpeg";
 
 const AboutIntro = () => {
   return (
-    <div className="mb-20 mt-10">
+    <div className="mb-20">
       {/* <h2 className="ml-4 text-6xl mt-8 font-semibold">About</h2> */}
       <section className="relative bg-black text-white m-4 rounded-2xl h-96">
         <div
