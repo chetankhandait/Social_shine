@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white py-4">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
-        <div className="flex items-center">
+        <div className="flex items-center jus">
           <img src="./instagram logo.jpg" alt="Canvix Logo" className="h-8 " />
           <span className="text-xl font-bold">SocialShine</span>
         </div>

@@ -8,16 +8,16 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-6">
+    <footer className="bg-black text-white py-6  ">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-12">
           {/* Logo and Description */}
           <div className="md:w-1/3 text-center space-y-4">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-start items-center">
               <img src="./instagram logo.jpg" className="h-9" />
               <h2 className="text-white text-2xl font-bold">Social Shine</h2>
             </div>
-            <p>
+            <p className="text-left">
               We're a team of strategic creator and digital innovator, united
               focus in our pursuit of mastery and joyful.
             </p>
@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </div> */}
           {/* Subscribe */}
-          <div className="md:w-1/2 lg:w-1/3 text-center md:text-left space-y-4">
+          <div className="mx-auto md:w-1/2 lg:w-1/3 text-center md:text-left space-y-4">
             <h3 className="text-white font-bold">Subscribe</h3>
             <div className="flex items-center justify-center md:justify-start bg-white rounded-full py-1 pr-1">
               <input
