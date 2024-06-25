@@ -14,11 +14,12 @@ const Home = () => {
       <div className="">
         {/* <Navbar /> */}
         <Hero />
-        <Services />
-        <WhyChooseUs />
-        {/* <Showcase /> */}
-        <ShowCase />
         <AboutUs />
+        <Services />
+        {/* <WhyChooseUs /> */}
+        {/* <Showcase /> */}
+        {/* <ShowCase /> */}
+
         <Process />
         <Testimonial />
         <Footer />
