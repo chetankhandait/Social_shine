@@ -7,6 +7,7 @@ import WhyChooseUs from "../Components/WhyChooseUs";
 import SeprateNavbar from "./SeprateNavbar";
 import Testimonial from "../Components/Testimonial";
 import Navbar from "../Components/Navbar";
+import BusinessSection from "./BuisnessSection";
 // import Navbar from "../Components/Navbar";
 
 const AboutUs = () => {
@@ -16,7 +17,7 @@ const AboutUs = () => {
       <Navbar />
 
       <AboutIntro />
-
+      <BusinessSection />
       <WhyChooseUs />
       <Team />
       <FAQ />
