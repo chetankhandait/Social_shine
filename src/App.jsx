@@ -8,10 +8,12 @@ import SeprateService from "./Pages/SeprateService";
 import WorkSample from "./Pages/WorkSample";
 import ContactUs from "./Pages/ContactUs";
 import Dynamic from "./Pages/Dynamic";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />

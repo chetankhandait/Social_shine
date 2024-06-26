@@ -21,7 +21,7 @@ const AboutUs = () => {
       {/* <WhyChooseUs /> */}
       <Team />
       {/* <FAQ /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </>
   );
