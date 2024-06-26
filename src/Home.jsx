@@ -7,6 +7,7 @@ import Process from "./Components/Process.jsx";
 import Testimonial from "./Components/Testimonial.jsx";
 import Footer from "./Components/Footer.jsx";
 import WhyChooseUs from "./Components/WhyChooseUs.jsx";
+import FAQ from "./Components/FAQ.jsx";
 
 const Home = () => {
   return (
@@ -16,12 +17,14 @@ const Home = () => {
         <Hero />
         <AboutUs />
         <Services />
-        {/* <WhyChooseUs /> */}
+
         {/* <Showcase /> */}
         {/* <ShowCase /> */}
 
         <Process />
+        <WhyChooseUs />
         <Testimonial />
+        <FAQ />
         <Footer />
       </div>
     </div>

@@ -1,0 +1,47 @@
+.completed .border {
+  border-color: #3b82f6 !important; /* Tailwind's blue-500 */
+}
+
+.completed .bg-gray-50 {
+  background-color: #3b82f6 !important; /* Tailwind's blue-500 */
+}
+
+.completed .text-gray-600 {
+  color: #fff !important;
+}
+
+.completed .bg-gray-300 {
+  background-color: #3b82f6 !important; /* Tailwind's blue-500 */
+}
+
+.completed span {
+  background-color: #3b82f6 !important; /* Tailwind's blue-500 */
+}
+
+.active {
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Center the icon within the div */
+.inline-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Progress bar animation */
+.progress-bar {
+  transition: background-color 0.3s ease;
+}
