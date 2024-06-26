@@ -124,25 +124,18 @@ const Navbar = () => {
   ];
 
   return (
-<<<<<<< HEAD
-    <nav className="bg-black text-white py-4">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
-        <div className="flex items-center jus">
-          <img src="./instagram logo.jpg" alt="Canvix Logo" className="h-8 " />
-          <span className="text-xl font-bold">SocialShine</span>
-=======
     <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-4xl">
       <div className="px-4">
         <div className="flex items-center justify-between gap-5">
           <div className="flex justify-center items-center gap-3 shrink-0">
             <NavLink aria-current="page" className="flex items-center" to="/">
               <img
-                className="h-8 w-auto rounded"
+                className="h-8 w-auto rounded  "
                 src="/instagram logo.jpg"
                 alt="Logo"
               />
             </NavLink>
-            <p className="text-black">Social Shine</p>
+            <p className="text-black">Social  Shine</p>
           </div>
           <div className="md:hidden">
             <NavLink
@@ -203,7 +196,6 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
->>>>>>> 607452595f2144ba4f55a2d8ac354f3e10137167
         </div>
       </div>
       {menuOpen && (
