@@ -18,10 +18,10 @@ const AboutUs = () => {
 
       <AboutIntro />
       <BusinessSection />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <Team />
-      <FAQ />
-      <Testimonial />
+      {/* <FAQ /> */}
+      {/* <Testimonial /> */}
       <Footer />
     </>
   );
