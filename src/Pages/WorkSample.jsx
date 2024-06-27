@@ -6,7 +6,7 @@ import backgroundImage from "/bg.jpeg";
 const WorkSample = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <section className="relative bg-black text-white m-4 rounded-2xl h-96">
           <div

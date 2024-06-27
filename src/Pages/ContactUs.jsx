@@ -164,7 +164,7 @@ import Footer from "../Components/Footer";
 const ContactSection = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <p className="text-center font-bold text-5xl tracking-wide mt-6">
           Get in Touch

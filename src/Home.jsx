@@ -8,11 +8,14 @@ import Testimonial from "./Components/Testimonial.jsx";
 import Footer from "./Components/Footer.jsx";
 import WhyChooseUs from "./Components/WhyChooseUs.jsx";
 import FAQ from "./Components/FAQ.jsx";
+import FloatingNav from "./Components/FloatingNavbar.jsx";
+// import Navbar from "./Components/Navbar.jsx";
 
 const Home = () => {
   return (
     <div>
       <div className="">
+        <FloatingNav/>
         {/* <Navbar /> */}
         <Hero />
         <AboutUs />

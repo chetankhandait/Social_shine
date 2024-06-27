@@ -14,7 +14,7 @@ const AboutUs = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       <AboutIntro />
       <BusinessSection />

@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar";
 const Dynamic = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="w-[94%] mx-auto">
         <div className="relative my-10">
           <div>

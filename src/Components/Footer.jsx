@@ -105,7 +105,7 @@ const Footer = () => {
           Our SocialShine Social Media Agency would love to help take your brand
           to the next level.
         </p>
-        <NavLink to="/contactus">
+        <NavLink to="/contact-us">
           <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded transition duration-300 mb-12">
             Contact Us
           </button>

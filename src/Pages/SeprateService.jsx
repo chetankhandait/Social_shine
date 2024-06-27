@@ -9,7 +9,7 @@ import ServiceInformation from "./ServiceInformation";
 const SeprateService = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <AboutIntro />
 
       <ServiceInformation />

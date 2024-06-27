@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+ 
 // import "./App.css";
 
 const App = () => {
@@ -84,7 +84,7 @@ const App = () => {
           </nav>
         </div>
       </header>{" "} */}
-      <Navbar />
+      
       <main className="container mx-auto px-6 pt-24 pb-20 flex flex-col-reverse lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12 justify-center">
         <div className="lg:w-1/2 text-center lg:text-left space-y-6 py-11">
           <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold">

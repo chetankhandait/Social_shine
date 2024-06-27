@@ -9,11 +9,13 @@ import WorkSample from "./Pages/WorkSample";
 import ContactUs from "./Pages/ContactUs";
 import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
+import FloatingNav from "./Components/FloatingNavbar";
 
 const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <FloatingNav/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
