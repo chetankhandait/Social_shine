@@ -1,8 +1,6 @@
- 
-
-
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // FloatingNav component definition
 const FloatingNav = ({ navItems = [], className }) => {
@@ -41,7 +39,7 @@ const FloatingNav = ({ navItems = [], className }) => {
         )}
       >
         {sampleNavItems.map((item, idx) => (
-          <a
+          <Link
             key={`link=${idx}`}
             href={item.link}
             className={cn(
@@ -49,8 +47,15 @@ const FloatingNav = ({ navItems = [], className }) => {
             )}
           >
             <span className="hidden sm:block text-sm">{item.name}</span>
-          </a>
+          </Link>
         ))}
+         
+        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+          
+          <span>Login</span>
+          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
+        </button>
+        
         <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
           
           <span>Login</span>
