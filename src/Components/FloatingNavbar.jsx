@@ -7,7 +7,7 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-
 // FloatingNav component definition
 const FloatingNav = ({ navItems = [], className }) => {
   const { scrollYProgress } = useScroll();
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   // Define the cn function
   const cn = (...inputs) => {
@@ -26,7 +26,7 @@ const FloatingNav = ({ navItems = [], className }) => {
   const sampleNavItems = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about-us" },
-    { name: "Contact", link: "/contact" }
+    { name: "Contact", link: "/contact-us" }
   ];
 
   return (
@@ -52,6 +52,7 @@ const FloatingNav = ({ navItems = [], className }) => {
           </a>
         ))}
         <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+          
           <span>Login</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
         </button>
