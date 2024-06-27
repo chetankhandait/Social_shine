@@ -97,9 +97,12 @@ const App = () => {
             libero egestas malesuada viverra gravida libero cursus nulla leo
             pulvinar.
           </p>
+          <Link to='/contact-us'>
+          
           <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold">
             Start your Free Trial
           </button>
+          </Link>
         </div>
         <div className="lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative rounded-full overflow-hidden w-64 h-64 md:w-96 md:h-96 border-4 border-gray-700">
