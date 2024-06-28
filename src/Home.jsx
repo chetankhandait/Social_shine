@@ -15,7 +15,8 @@ const Home = () => {
   return (
     <div>
       <div className="">
-        <FloatingNav/>
+        
+        {/* <FloatingNav/> */}
         {/* <Navbar /> */}
         <Hero />
         <AboutUs />

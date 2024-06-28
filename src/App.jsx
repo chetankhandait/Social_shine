@@ -10,12 +10,15 @@ import ContactUs from "./Pages/ContactUs";
 import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
+import SRBNavbar from "./Components/SRBNavbar";
 
 const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <FloatingNav/>
+      {/* <FloatingNav/> */}
+      
+      <SRBNavbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
