@@ -17,7 +17,9 @@ const Testimonial = () => {
 
                 <div class="max-w-xl mt-16 mx-auto">
                     <div class="flex flex-col items-center text-center">
-                        <img src="https://readymadeui.com/team-1.webp" class="w-28 h-28 rounded-full shadow-[0_2px_22px_-4px_rgba(93,96,127,0.6)] border-2 border-white" />
+                        <img src="https://readymadeui.com/team-1.webp" class="w-28 h-28 rounded-full shadow-[0_2px_22px_-4px_rgba(93,96,127,0.6)] border-2 border-white"
+                        loading='lazy'
+                        />
                         <div class="mt-4">
                             <h4 class="text-gray-800 text-base font-extrabold">John Doe</h4>
                             <p class="text-xs text-gray-500 mt-1">CEO, Company</p>

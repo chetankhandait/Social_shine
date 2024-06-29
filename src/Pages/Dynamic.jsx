@@ -13,6 +13,7 @@ const Dynamic = () => {
             <img
               src="https://s3-alpha-sig.figma.com/img/b701/f9bc/d7311f5c3c28d6e631ab9a8817cee5ae?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R1ck8fkeJ0ZL7lkYL3ka5h9YuGxGIiJtxy7cQV0Mwnr73TTjfspkADW1oHlX5AEEhErqd0B0FePu93j7ACu~K~sgOHfY4Fmut6OZzwz897Z5C6Gs7YKavVnZAinJ3rIgzb4FF~rYK1Ik61ObPrsHHQRf8yjwLL4bqtQM5x1HvqGMKJYjGzCGHFQJsXog~2uLcsktqplADGsFBe6stA6vypKYWgW5-NqDW4FJ-jupQQGWeb-uwwEx9Y4Mc3Ae6ZXo6Koi4AITwuuqxcZcaH4urYRiQb1xFA0fG7fNNv4nnsxVp7FBM1sy8rxLWLiOtA1FO3Qqmd9Pvz5iy9MFVr~iCQ__"
               alt=""
+              loading='lazy'
               className="h-[590px] w-full object-cover rounded-xl"
             />
             <div className=" hidden md:flex items-center gap-4 justify-center -translate-y-7      ">
@@ -92,6 +93,7 @@ const Dynamic = () => {
               <img
                 src="https://s3-alpha-sig.figma.com/img/28fe/8c2a/73b6a96679ed8b7d9e54c076ec3cb961?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JBTjwilAg2JRFEUEgR-SDFHDzi1ODSCn~sftgyZUdyKCVy~UE4qnQxl5ZhaJmg1L5Tz~zeOKK-tBG7rTHVDjkyFSF8RC0GEMk-4OptQjlG4ekxSo5dZRt4IkLeeLfmS~Cq2eCzZJuRr~ctF~rZ5Rs3yCK3sp9d7jM6IeF6rYLwNatrUi8GK3QjH-RuryhvzLdvpcuhOGxVvs9ALLUOcCHXusVF993HBeSWyV~dl0G2c0O0H9wcxX-RyHjBY3Uxf505a2n50QRCTY1r6Tn750Fed~au6x0frlAi3C7QIv1enuwJOdzkqWcbPge9h6hZ-tzG1D-aW56fIGXLMeUsrygw__"
                 alt=""
+                loading='lazy'
                 className="  h-[400px] object-cover rounded-3xl  w-[417.3px]  "
               />
             </div>
@@ -99,6 +101,7 @@ const Dynamic = () => {
               <img
                 src="https://s3-alpha-sig.figma.com/img/0be9/9bac/642e8087c76ad9daeac15ddd171bc9c2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Kc7bf2I1pYkNvITYizLgjtDOwWgVMu6HV-PO~Oe~rZbr3lG5W31M~Mt564USBUL21wD0kzDXvlE3GIk6iDMCvkJbuzW5xGLxKdOZfIg-nokmk7AMOHaVOoFRMi39r9srnWu9K0Uy~svmPzIt1JozPNloLPbjk-Xse-0VIvFa2Q8S9ZaIb4n~qWPDq3MfXfEwfl76XXrxX9Iqi~xt0f2b2dFt~VyqEHmeK~GT-ybO~yBgtnafQYr9~4i7tnVwHhQZxi~wV3zIZPFln3Kuog4X0JDkd-eqsT7yjRW~b0sB0XTz15BnWdG0HavxkiojtSN9UwNhtxpe7FQKymYxkwdVbQ__"
                 alt=""
+                loading='lazy'
                 className="h-[400px] w-[417.3px] object-cover  rounded-3xl"
               />
             </div>
@@ -106,6 +109,7 @@ const Dynamic = () => {
               <img
                 src="https://s3-alpha-sig.figma.com/img/8dad/c6cc/6491c4c566f79c7133489910ca97ce7b?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EDetyVY8mCrwomCV2AOZWSujkmCWpAdL7yRHdoOrbuJzgT~oWG~4KDEcubQJafjwVquE1-m~Sp4fQgU40-e9U-IahKdVOIvV1-TUtq0EDIaxHQNhFPkFClhBEJN~9wLvGQjwXPk8KIijMOdqJJwwQ4dElT0R2yXoYAnrFTv65aixdHU1wj48Je9iCfticIpoykkj2wCLwj5q~FJCpHgkEOXq8-EUsccU8Oh8aaCPW-9weCZybZvNi~nDkF-0TXOk9Hg1x76athT8b9O1RVkIAe58p62U4AeoTq6P4s71HtPpYgv8t7aN206T~Jrvy58UovJ5FNhNgj~1kLIIqV4ZrA__"
                 alt=""
+                loading='lazy'
                 className="h-[400px] w-[417.3px] object-cover  rounded-3xl"
               />
             </div>

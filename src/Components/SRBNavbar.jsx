@@ -14,7 +14,7 @@ const SRBNavbar = () => {
         <div className='flex items-center     '>
            <div className='pl-2 ' >
 
-            <img src="./logo.png" alt="" width={50} height={60} className='-translate-y-1'  />
+            <img src="./logo.png" alt="" width={50} height={60} className='-translate-y-1' loading='lazy' />
            </div>
            
           <div className='flex justify-between items-center gap-9 px-6'>

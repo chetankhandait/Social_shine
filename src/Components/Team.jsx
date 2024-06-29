@@ -10,6 +10,7 @@ function Team() {
           <div className="relative inline-block">
             <img
               src="/Palak.jpg"
+              loading="lazy"
               alt="Palak Sahu"
               className="w-64 h-80 object-cover rounded-lg mb-4"
             />
@@ -43,6 +44,7 @@ function Team() {
             <img
               src="/Chirag.jpg"
               alt="Chirag Gupta"
+              loading="lazy"
               className="w-64 h-80 object-cover rounded-lg mb-4"
             />
             <div className="absolute top-2 right-2 p-2 flex flex-col space-y-2">
@@ -75,6 +77,7 @@ function Team() {
             <img
               src="/Chetan.jpg"
               alt="Chetan Khandait"
+              loading='lazy'
               className="w-64 h-80 object-cover rounded-lg mb-4"
             />
             <div className="absolute top-2 right-2 p-2 flex flex-col space-y-2">

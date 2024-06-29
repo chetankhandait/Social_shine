@@ -128,6 +128,7 @@ const BuisnessSection = () => {
             <img
               src="/Contact.jpg"
               alt="About Us"
+              loading='lazy'
               className="rounded-lg shadow-lg"
             />
           </div>
