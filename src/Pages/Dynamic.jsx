@@ -355,7 +355,7 @@ const Dynamic = () => {
             ))}
           </div>
         </div>
-      </section>
+      </div>
       <Footer />
     </>
   );
