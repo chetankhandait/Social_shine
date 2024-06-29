@@ -222,7 +222,7 @@ const WhyChooseUs = () => {
                 onClick={() => setSelected(index)}
                 className={`p-4 md:p-4 lg:p-7 cursor-pointer flex justify-between items-center ${
                   selected === index
-                    ? "font-bold bg-gray-700 text-white"
+                    ? "font-bold bg-[#2563eb] text-white"
                     : "text-gray-200"
                 }`}
               >
@@ -246,7 +246,7 @@ const WhyChooseUs = () => {
               </div>
             ))}
           </div>
-          <div className="w-full md:w-2/3 bg-gray-800 p-10 rounded-lg shadow-lg">
+          <div className="w-full md:w-2/3 bg-black p-10 rounded-lg shadow-lg">
             <div>
               <div className="text-4xl mb-4 text-white">
                 {sections[selected].icon}
