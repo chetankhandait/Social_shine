@@ -175,6 +175,7 @@ import {
   FaPencilRuler,
   FaShoppingCart,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const ServiceCard = ({ service }) => (
   <div className="relative overflow-hidden group h-[470px] w-[350px] bg-gray-800 mx-auto">
@@ -265,12 +266,12 @@ const ServicesSection = () => {
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <a
-            href="#"
+          <NavLink
+            to="/services"
             className="text-white inline-block bg-transparent font-bold transition-colors duration-300 px-6 py-3 border border-white rounded-lg hover:bg-blue-600 hover:border-transparent"
           >
             Check out more Services
-          </a>
+          </NavLink>
         </div>
       </div>
     </section>

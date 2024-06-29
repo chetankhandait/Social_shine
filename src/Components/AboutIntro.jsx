@@ -27,3 +27,33 @@ const AboutIntro = () => {
 };
 
 export default AboutIntro;
+// import React from "react";
+
+// const AboutIntro = () => {
+//   return (
+//     <div className="h-screen flex justify-center items-center">
+//       <div className="flex flex-col justify-center items-center text-center md:flex-row w-full h-full">
+//         <div className="bg-black w-full md:w-1/2 h-full flex justify-center items-center">
+//           <div>
+//             <p className="text-white text-lg mb-4">We Are Creative</p>
+//             <h1 className="text-white text-6xl font-bold">Branding</h1>
+//             <h2 className="text-white text-2xl mt-2">Digital Agency</h2>
+//           </div>
+//         </div>
+//         <div className="bg-blue-500 w-full md:w-1/2 h-full flex justify-center items-center">
+//           <div>
+//             <p className="text-white text-lg mb-4">
+//               Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
+//               tempor incididunt labore et dolore.
+//             </p>
+//             <button className="bg-white text-black px-6 py-2 rounded">
+//               Discover More
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AboutIntro;
