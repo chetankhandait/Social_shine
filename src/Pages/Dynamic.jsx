@@ -154,6 +154,7 @@
 import React from "react";
 import SRBNavbar from "../Components/SRBNavbar";
 import Footer from "../Components/Footer";
+import SectionComponent from "./SectionComponent";
 
 const portfolioItems = [
   {
@@ -218,6 +219,7 @@ const Dynamic = () => {
   return (
     <>
       {/* <Navbar /> */}
+      <SectionComponent />
       <div className="w-[94%] mx-auto">
         <div className="relative my-10">
           <div>
