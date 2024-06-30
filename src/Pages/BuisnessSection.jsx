@@ -126,10 +126,10 @@ const BuisnessSection = () => {
         <section className="grid md:grid-cols-2 gap-8 mb-16">
           <div>
             <img
-              src="/Contact.jpg"
+              src="/sapiens.png"
               alt="About Us"
               loading='lazy'
-              className="rounded-lg shadow-lg"
+              className="rounded-lg  "
             />
           </div>
           <div className="flex flex-col justify-center">
