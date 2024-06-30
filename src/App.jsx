@@ -11,10 +11,11 @@ import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
-
+import { Analytics } from "@vercel/analytics/react"
 const App = () => {
   return (
     <BrowserRouter>
+    <Analytics/>
       <ScrollToTop />
       {/* <FloatingNav/> */}
       
