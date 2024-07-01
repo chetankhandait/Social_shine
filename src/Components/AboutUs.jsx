@@ -61,6 +61,7 @@
 
 // export default AboutUs;
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -98,9 +99,13 @@ const AboutUs = () => {
               <p className="text-gray-500">Revenue generated</p>
             </div>
           </div>
+          <Link to='/about-us' >
+
+
           <button className="bg-blue-500 text-white py-2 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
             More Details about us
           </button>
+          </Link>
         </div>
       </section>
     </div>

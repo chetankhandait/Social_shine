@@ -14,7 +14,7 @@ import FloatingNav from "./Components/FloatingNavbar.jsx";
 const Home = () => {
   return (
     <div>
-      <div className="">
+      <div className="overflow-hidden">
         
         {/* <FloatingNav/> */}
         {/* <Navbar /> */}

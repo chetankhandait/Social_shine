@@ -13,7 +13,7 @@ const SRBNavbar = () => {
       <div className="fixed top-5 left-5 border border-gray-400  bg-black py-3 shadow backdrop-blur-2xl rounded-3xl text-white ">
         <div className="flex items-center     ">
           <div className="pl-2 ">
-            <a href="/">
+            <a href="/" className="flex items-center">
 
 
             <img
@@ -23,6 +23,7 @@ const SRBNavbar = () => {
               height={60}
               className="-translate-y-1"
             />
+            <span className="font-extrabold hidden sm:block ">Social Shine </span>
             </a>
           </div>
 
