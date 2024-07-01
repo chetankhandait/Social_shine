@@ -13,6 +13,9 @@ const SRBNavbar = () => {
       <div className="fixed top-5 left-5 border border-gray-400  bg-black py-3 shadow backdrop-blur-2xl rounded-3xl text-white ">
         <div className="flex items-center     ">
           <div className="pl-2 ">
+            <a href="/">
+
+
             <img
               src="./logo.png"
               alt=""
@@ -20,12 +23,13 @@ const SRBNavbar = () => {
               height={60}
               className="-translate-y-1"
             />
+            </a>
           </div>
 
           <div className="flex justify-between items-center gap-9 px-6">
             <div>
               <a
-                href="/contact"
+                href="/contact-us"
                 className="bg-blue-600 py-2 px-2 font-semibold rounded"
               >
                 Contact Us
