@@ -9,6 +9,7 @@ import Footer from "./Components/Footer.jsx";
 import WhyChooseUs from "./Components/WhyChooseUs.jsx";
 import FAQ from "./Components/FAQ.jsx";
 import FloatingNav from "./Components/FloatingNavbar.jsx";
+import ServiceGrid from "./Components/ServiceGrid.jsx";
 // import Navbar from "./Components/Navbar.jsx";
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
         {/* <Navbar /> */}
         <Hero />
         <AboutUs />
-        <Services />
+        <ServiceGrid />
 
         {/* <Showcase /> */}
         {/* <ShowCase /> */}
