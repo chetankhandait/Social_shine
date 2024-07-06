@@ -61,6 +61,7 @@
 
 // export default AboutUs;
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -71,11 +72,11 @@ const AboutUs = () => {
       <section className="flex flex-col md:flex-row items-center justify-center md:pb-8">
         <div className="relative md:w-1/2 flex justify-center mb-3 md:mb-0">
           <div className="relative">
-            <div className="p-4 rounded-lg shadow-lg">
+            <div className="   ">
               <img
-                src="https://th.bing.com/th/id/OIP.XUW1rVguTqP4kLZoASrjTAHaE8?rs=1&pid=ImgDetMain"
+                src="./about.jpg"
                 alt="Team"
-                className="rounded-3xl"
+                className=" "
               />
             </div>
           </div>
@@ -85,22 +86,18 @@ const AboutUs = () => {
             The core mission behind all our work
           </h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus
-            ut tortor purus tincidunt sed lectus ut eros, turpis tincidunt id.
+         
+
+At our newly opened agency, our core mission drives every aspect of our work. We specialize in delivering exceptional social marketing services, customized website development, and effective advertising solutions. With a strong commitment to quality and innovation, we aim to exceed client expectations. Our goal is to empower businesses with cutting-edge digital strategies that drive success from the start.
           </p>
-          <div className="flex flex-col sm:flex-row sm:space-x-6 mb-6">
-            <div className="text-center sm:text-left mb-4 sm:mb-0">
-              <span className="text-3xl font-semibold text-blue-500">330+</span>
-              <p className="text-gray-500">Companies helped</p>
-            </div>
-            <div className="text-center sm:text-left">
-              <span className="text-3xl font-semibold text-blue-500">230+</span>
-              <p className="text-gray-500">Revenue generated</p>
-            </div>
-          </div>
+          
+          <Link to='/about-us' >
+
+
           <button className="bg-blue-500 text-white py-2 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
             More Details about us
           </button>
+          </Link>
         </div>
       </section>
     </div>

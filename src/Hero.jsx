@@ -156,8 +156,9 @@ const Hero = () => {
         </h1>
         <h2 className="text-white text-2xl md:text-4xl mt-1">Digital Agency</h2>
         <p className="text-white text-lg my-8">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
-          tempor incididunt labore et dolore.
+        Transforming your vision into reality. At <span className="text-black font-semibold">Social Shine,</span>  we excel in crafting unique brand identities and delivering impactful digital strategies.
+
+
         </p>
         <button className="bg-white text-black px-6 py-2 rounded font-bold">
           Discover More
