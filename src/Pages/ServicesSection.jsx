@@ -40,47 +40,42 @@ const ServicesSection = () => {
       description:
         "Let us bring your vision to life with our creative and responsive web design and development services...",
       icon: <FaLaptopCode size={60} className="text-blue-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/website.png", // Replace with your image path
     },
     {
       name: "App Development",
       description:
         "Be unique with our App Development services. We craft user-friendly and feature-rich apps that...",
       icon: <FaMobileAlt size={60} className="text-green-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/App.png", // Replace with your image path
     },
     {
       name: "Website Maintenance",
       description:
         "Ensuring a smooth and secure online experience with regular updates, optimizations, and ...",
       icon: <FaCogs size={60} className="text-red-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/maintenance.png", // Replace with your image path
     },
     {
-      name: "Digital Marketing",
+      name: "Social Media Marketing",
       description:
         "Boost your online presence and reach your target audience effectively with our comprehensive digital marketing solutions...",
       icon: <FaBullhorn size={60} className="text-yellow-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/marketing.png", // Replace with your image path
     },
     {
       name: "Graphic Designing",
       description:
         "Creating visually stunning and impactful designs for your brand and marketing materials...",
       icon: <FaPencilRuler size={60} className="text-purple-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/graphic.png", // Replace with your image path
     },
     {
       name: "E-Commerce Solutions",
       description:
         "Providing robust and scalable e-commerce solutions to help you set up and manage your online store effectively...",
       icon: <FaShoppingCart size={60} className="text-pink-600" />,
-      image: "/workingMan.jpg", // Replace with your image path
+      image: "/e-commerce.png", // Replace with your image path
     },
   ];
 
