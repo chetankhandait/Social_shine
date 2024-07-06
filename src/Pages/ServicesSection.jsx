@@ -80,8 +80,7 @@ const ServicesSection = () => {
       description:
         "Providing robust and scalable e-commerce solutions to help you set up and manage your online store effectively...",
       icon: <FaShoppingCart size={60} className="text-pink-600" />,
-      image:
-        "https://th.bing.com/th/id/OIP.XOsqdsxmyYuXrapxMjMoRwAAAA?rs=1&pid=ImgDetMain", // Replace with your image path
+      image: "/workingMan.jpg", // Replace with your image path
     },
   ];
 
