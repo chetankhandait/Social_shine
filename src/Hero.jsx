@@ -140,30 +140,69 @@
 // };
 
 // export default App;
+// import React from "react";
+
+// const Hero = () => {
+//   return (
+//     <div className="h-screen flex relative">
+//       <div className="w-full flex">
+//         <div className="bg-black w-1/2 flex flex-col justify-center items-center text-center p-8"></div>
+//         <div className="bg-blue-500 w-1/2 flex flex-col justify-center items-center text-center p-8"></div>
+//       </div>
+//       <div className="absolute left-0 right-0 top-0 bottom-0 m-auto flex flex-col items-center justify-center text-center max-w-lg">
+//         <p className="text-white text-lg mb-6">We Are Creative</p>
+//         <h1 className="text-white text-6xl md:text-8xl font-bold mb-2">
+//           Branding
+//         </h1>
+//         <h2 className="text-white text-2xl md:text-4xl mt-1">Digital Agency</h2>
+//         <p className="text-white text-lg my-8">
+//           Transforming your vision into reality. At{" "}
+//           <span className="text-black font-semibold">Social Shine,</span> we
+//           excel in crafting unique brand identities and delivering impactful
+//           digital strategies.
+//         </p>
+//         <button className="bg-white text-black px-6 py-2 rounded font-bold">
+//           Discover More
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Hero;
 import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex relative">
-      <div className="w-full flex">
-        <div className="bg-black w-1/2 flex flex-col justify-center items-center text-center p-8"></div>
-        <div className="bg-blue-500 w-1/2 flex flex-col justify-center items-center text-center p-8"></div>
-      </div>
-      <div className="absolute left-0 right-0 top-0 bottom-0 m-auto flex flex-col items-center justify-center text-center max-w-lg">
-        <p className="text-white text-lg mb-6">We Are Creative</p>
-        <h1 className="text-white text-6xl md:text-8xl font-bold mb-2">
-          Branding
-        </h1>
-        <h2 className="text-white text-2xl md:text-4xl mt-1">Digital Agency</h2>
-        <p className="text-white text-lg my-8">
-        Transforming your vision into reality. At <span className="text-black font-semibold">Social Shine,</span>  we excel in crafting unique brand identities and delivering impactful digital strategies.
-
-
-        </p>
-        <button className="bg-white text-black px-6 py-2 rounded font-bold">
-          Discover More
-        </button>
-      </div>
+    <div className="bg-black">
+      <section className="py-36 mx-auto max-w-screen-xl px-4 items-center lg:flex md:px-8">
+        <div className="space-y-8 flex-1 sm:text-center lg:text-left">
+          <h1 className="text-white font-bold text-4xl xl:text-5xl">
+            One page Template for
+            <span className="text-blue-400"> Digital agency</span>
+          </h1>
+          <p className="text-gray-300 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum
+          </p>
+          <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
+            <a
+              href="javascript:void(0)"
+              className="px-7 py-3 w-full bg-white hover:bg-blue-600 hover:text-white font-semibold text-gray-800 text-center rounded-md  block sm:w-auto"
+            >
+              Get started
+            </a>
+          </div>
+        </div>
+        <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
+          <img
+            src="https://i.postimg.cc/HxHyt53c/undraw-heatmap-uyye.png"
+            className="w-full mx-auto sm:w-10/12 lg:w-full"
+            alt="Illustration"
+          />
+        </div>
+      </section>
     </div>
   );
 };
