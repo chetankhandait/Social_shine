@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
+ 
 
 const SRBNavbar = () => {
   const [isOverlayVisible, setIsOverlayVisible] = useState(false);
@@ -53,8 +54,8 @@ const SRBNavbar = () => {
         <div className="fixed inset-0 bg-[#171717]  text-[#747474] z-10">
           {/* // Cross butt/on  */}
           <div className="absolute top-3 right-5">
-            <h3 className="text-white cursor-pointer" onClick={toggleOverlay}>
-              cross
+            <h3 className="text-white cursor-pointer px-4 py-2 bg-[#2563eb] rounded-md font-bold" onClick={toggleOverlay}>
+              Close 
             </h3>
           </div>
           {/* // Navbar Component  */}
@@ -64,16 +65,16 @@ const SRBNavbar = () => {
               <div className="flex  gap-28  ">
                 <section className="text-5xl  flex flex-col gap-7 font-semibold text-[#747474] ">
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <a href="/">About Us</a>
+                    <a href="/">Home </a>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <a href="/">About Us</a>
+                    <a href="/about-us">About Us</a>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <a href="/">About Us</a>
+                    <a href="/services">Service</a>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <a href="/">About Us</a>
+                    <a href="/work-sample">Work Sample</a>
                   </div>
                 </section>
                 <section className=" ">
