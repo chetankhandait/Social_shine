@@ -17,7 +17,7 @@ const ServiceCard = ({ service }) => (
         // backgroundColor: "#38A89D", // Initial background color (transparent green)
       }}
     ></div>
-    <div className="relative z-10 flex flex-col items-start justify-start h-full p-6 bg-black bg-opacity-70 ">
+    <div className="relative z-10 flex flex-col items-start justify-start h-full p-6 bg-black bg-opacity-50 ">
       <div className="mb-20 ml-2 mt-8">{service.icon}</div>
       <h3 className="text-xl font-semibold text-white text-center mb-4">
         {service.name}
