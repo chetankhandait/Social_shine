@@ -89,8 +89,9 @@ const Process = () => {
                   {currentStep > index ? <MdDone /> : step.icon}
                 </div>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+              <div className="text-center ml-6 lg:ml-0 lg:mt-10">
+                <h3 className= " flex items-center gap-4 text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                  {step.icon}
                   {step.title}
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
