@@ -1,4 +1,3 @@
- 
 import React, { useEffect, useState } from "react";
 import { FaDatabase, FaMap, FaGlobe, FaCheckCircle } from "react-icons/fa";
 import { MdDone } from "react-icons/md";
@@ -7,22 +6,26 @@ import "./Process.css"; // Add a CSS file for custom styles
 const steps = [
   {
     title: "Gather Client Requirements",
-    description: "We start by understanding your needs and goals. We gather all the necessary information to ensure your website aligns with your vision.",
+    description:
+      "We start by understanding your needs and goals. We gather all the necessary information to ensure your website aligns with your vision.",
     icon: <FaDatabase />,
   },
   {
     title: "Create Wireframes and Design",
-    description: "Our team creates wireframes and design mockups to visualize the structure and layout of your website. We work closely with you to refine these designs until you're satisfied.",
+    description:
+      "Our team creates wireframes and design mockups to visualize the structure and layout of your website. We work closely with you to refine these designs until you're satisfied.",
     icon: <FaMap />,
   },
   {
     title: "Develop and Prototype",
-    description: "Once the design is approved, we move to the development phase. We build a functional prototype of your website, integrating your content and ensuring everything works seamlessly.",
+    description:
+      "Once the design is approved, we move to the development phase. We build a functional prototype of your website, integrating your content and ensuring everything works seamlessly.",
     icon: <FaGlobe />,
   },
   {
     title: "Launch Your Website",
-    description: "After thorough testing and final adjustments, your website is ready to go live. We help you choose a domain, and with just a few clicks, your professional website is launched.",
+    description:
+      "After thorough testing and final adjustments, your website is ready to go live. We help you choose a domain, and with just a few clicks, your professional website is launched.",
     icon: <FaCheckCircle />,
   },
 ];
@@ -41,20 +44,21 @@ const Process = () => {
   }, []);
 
   return (
-    <section className= " block bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
+    <section className=" block bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-gray-700">
             How It Works
           </p>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-            Launch your blog in 4 easy steps
+            Launch your <span className="text-blue-400">Brand</span> in 4 easy
+            steps
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
             Create your own blog with us and launch it with just 4 easy steps
           </p>
         </div>
-        <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+        <ul className="mx-auto mt-12 grid  grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-7xl lg:grid-cols-4 ">
           {steps.map((step, index) => (
             <li
               key={index}
@@ -86,10 +90,8 @@ const Process = () => {
                 </div>
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
-              
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   {step.title}
-                  
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
                   {step.description}
