@@ -146,7 +146,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="h-screen flex relative">
-      <div className="w-full flex">
+      <div className="w-full flex  flex-row ">
+         
+
         <div className="bg-black w-1/2 flex flex-col justify-center items-center text-center sm:text-left p-8">
           {" "}
           <div className="mx-auto z-10">
@@ -168,9 +170,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="bg-blue-500 w-1/2 flex flex-col justify-center items-center text-center p-8"> 
-        <img src="./mobile-marketing-animate.svg" alt="" />
+        <div className="  bg-blue-500 w-1/2 flex flex-col justify-center items-center text-center p-8 "> 
+        <img src="./mobile-marketing-animate.svg" alt="" className="hidden sm:block" />
         </div>
+         
       </div>
       {/* <div className="absolute left-0 right-0 top-0 bottom-0 m-auto flex flex-col items-center justify-center text-center max-w-lg"></div> */}
     </div>
