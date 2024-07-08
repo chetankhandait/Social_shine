@@ -6,28 +6,27 @@ const WhyChooseUs = () => {
 
   const sections = [
     {
-      title: "Dedicated Social Studios",
+      title: "Expert Web and App Development",
       description:
-        "Our studio space produces all kinds of social media content, tailored for your intended audience. We specialize in creating videos, photos, text, and the intersections of these mediums.",
-      icon: "🎯",
+        "Our team specializes in creating cutting-edge websites and mobile applications tailored to your unique needs. From concept to launch, we ensure a seamless and engaging user experience.",
+      icon: "./code.svg",
     },
     {
-      title: "The Social Media Agency",
-      description:
-        "We offer comprehensive social media management services to enhance your brand's online presence.",
-      icon: "📱",
+      title: "Comprehensive Social Media Handling",
+      description:"We offer comprehensive social media management services to enhance your brand's online presence.",
+      icon: "./socialmedia.svg",
     },
     {
-      title: "World-class Clients",
+      title: "Innovative and Creative Solutions",
       description:
-        "We have worked with top-tier clients around the globe, delivering exceptional results every time.",
-      icon: "🌎",
+        "We pride ourselves on delivering innovative and creative solutions that set your brand apart. Our team stays ahead of industry trends to provide fresh, unique ideas for your web, app, and social media projects.",
+      icon: "./Critical.svg",
     },
     {
-      title: "Results Driven",
+      title: "Results-Driven Advertising",
       description:
-        "Our strategies are focused on delivering measurable results and achieving your business goals.",
-      icon: "📈",
+        "Our data-driven approach to advertising ensures that every campaign is optimized for maximum impact and ROI. We continuously monitor and refine our strategies to deliver the best possible results for your business.",
+      icon: "./result.svg",
     },
   ];
 
@@ -69,15 +68,19 @@ const WhyChooseUs = () => {
               </div>
             ))}
           </div>
-          <div className="w-full md:w-2/3 bg-black p-10 rounded-lg shadow-lg">
-            <div>
+          <div className="w-full md:w-2/3 bg-black p-5 rounded-lg shadow-lg">
+            <div className="flex flex-col items-start mx-8">
               <div className="text-4xl mb-4 text-white">
-                {sections[selected].icon}
+                {
+
+                <img src={sections[selected].icon} alt="" width={250} height={70}/>
+                }
+              
               </div>
               <h3 className="text-2xl font-bold mb-4 text-white">
                 {sections[selected].title}
               </h3>
-              <p className="text-gray-300">{sections[selected].description}</p>
+              <p className="text-gray-300  ">{sections[selected].description}</p>
             </div>
           </div>
         </div>

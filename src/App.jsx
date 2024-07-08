@@ -11,13 +11,14 @@ import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
+import MetaTags from "./SEO/MetaTag";
 const App = () => {
   return (
     <BrowserRouter>
     
       <ScrollToTop />
       {/* <FloatingNav/> */}
-      
+      <MetaTags/>
       <SRBNavbar/>
       <Routes>
         <Route path="/" element={<Home />} />

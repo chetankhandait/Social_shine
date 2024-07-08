@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { FaDatabase, FaMap, FaGlobe, FaCheckCircle } from "react-icons/fa";
+import { FaClipboardList } from "react-icons/fa";
+import { MdDesignServices } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdCelebration } from "react-icons/md";
+
 import { MdDone } from "react-icons/md";
 import "./Process.css"; // Add a CSS file for custom styles
 
@@ -8,25 +13,25 @@ const steps = [
     title: "Gather Client Requirements",
     description:
       "We start by understanding your needs and goals. We gather all the necessary information to ensure your website aligns with your vision.",
-    icon: <FaDatabase />,
+    icon: <FaClipboardList fontSize={20} />,
   },
   {
     title: "Create Wireframes and Design",
     description:
       "Our team creates wireframes and design mockups to visualize the structure and layout of your website. We work closely with you to refine these designs until you're satisfied.",
-    icon: <FaMap />,
+    icon: <MdDesignServices fontSize={20} />,
   },
   {
     title: "Develop and Prototype",
     description:
       "Once the design is approved, we move to the development phase. We build a functional prototype of your website, integrating your content and ensuring everything works seamlessly.",
-    icon: <FaGlobe />,
+    icon: <FaLaptopCode  fontSize={20}/>,
   },
   {
     title: "Launch Your Website",
     description:
       "After thorough testing and final adjustments, your website is ready to go live. We help you choose a domain, and with just a few clicks, your professional website is launched.",
-    icon: <FaCheckCircle />,
+    icon: <MdCelebration fontSize={20} />,
   },
 ];
 
@@ -89,8 +94,11 @@ const Process = () => {
                   {currentStep > index ? <MdDone /> : step.icon}
                 </div>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+              <div className="text-center ml-6 lg:ml-0 lg:mt-10">
+                <h3 className= " flex items-center gap-4 text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+
+                   
+                  
                   {step.title}
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
