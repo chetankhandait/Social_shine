@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const testimonials = [
   {
     image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "./Testinomilal/movethedanceSpace.jpg",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa aperiam dolorum, obcaecati corrupti aspernatur a.",
     name: "Ronik Ederson",
@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "./Testinomilal/blackleaf.jpg",
     quote:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     name: "Sarah Johnson",
@@ -58,7 +58,7 @@ const Testimonial = () => {
 
           <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
             <img
-              className="object-cover object-center w-full lg:w-[32rem] rounded-lg h-96"
+              className="object-contain object-center w-full lg:w-[32rem] rounded-lg h-96 "
               src={image}
               alt={name}
             />
