@@ -7,7 +7,7 @@ const AboutIntro = () => {
       {/* <h2 className="ml-4 text-6xl mt-8 font-semibold">About</h2> */}
       <section className="relative bg-black text-white py-4 h-80 md:h-96">
         <video
-          className="absolute top-0 left-0 w-full h-full object-cover "
+          className="absolute top-0 left-0 w-full h-full object-cover opacity-50 "
           src="/edting.mp4"
           autoPlay
           loop

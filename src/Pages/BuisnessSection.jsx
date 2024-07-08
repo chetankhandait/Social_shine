@@ -118,7 +118,7 @@ const BuisnessSection = () => {
           <section className="grid md:grid-cols-2 gap-8 mb-16">
             <div>
               <img
-                src="/story.jpg"
+                src="/team.svg"
                 alt="About Us"
                 loading="lazy"
                 className="rounded-lg"

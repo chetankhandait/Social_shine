@@ -61,10 +61,10 @@ const SRBNavbar = () => {
           {/* // Navbar Component  */}
 
           <div className="text-[#747474] mt-28 mx-12 ">
-            <div className=" flex flex-col justify-center items-start gap-16 ">
-              <div className="flex  gap-28  ">
-                <section className="text-5xl  flex flex-col gap-7 font-semibold text-[#747474] ">
-                  <div className="cursor-pointer hover:text-white transition-all">
+            <div className=" flex flex-col justify-evenly items-start gap-24  sm:gap-16 ">
+              <div className="flex gap-4 sm:gap-28 sm:justify-between ">
+                <section className="text-4xl    flex flex-col gap-7 font-semibold text-[#747474] sm:text-5xl ">
+                  <div className="cursor-pointer hover:text-white transition-all ">
                     <a href="/">Home </a>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
