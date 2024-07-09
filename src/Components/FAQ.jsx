@@ -191,7 +191,7 @@ const FAQ = () => {
 
         <div className="mx-4 flex flex-wrap">
           {faqData.map((faq, index) => (
-            <div key={index} className="w-full px-4 lg:w-1/2">
+            <div key={index} className="w-full px-4 ">
               <AccordionItem header={faq.header} text={faq.text} />
             </div>
           ))}
