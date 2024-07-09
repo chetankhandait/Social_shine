@@ -2,16 +2,14 @@ import React, { useState } from "react";
 
 const testimonials = [
   {
-    image:
-      "./Testinomilal/movethedanceSpace.jpg",
+    image: "./Testinomilal/movethedanceSpace.jpg",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa aperiam dolorum, obcaecati corrupti aspernatur a.",
     name: "Ronik Ederson",
     position: "Marketing Manager at Stech",
   },
   {
-    image:
-      "./Testinomilal/blackleaf.jpg",
+    image: "./Testinomilal/blackleaf.jpg",
     quote:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     name: "Sarah Johnson",
