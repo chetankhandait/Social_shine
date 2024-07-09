@@ -15,11 +15,10 @@ import MetaTags from "./SEO/MetaTag";
 const App = () => {
   return (
     <BrowserRouter>
-    
       <ScrollToTop />
       {/* <FloatingNav/> */}
-      <MetaTags/>
-      <SRBNavbar/>
+      <MetaTags />
+      <SRBNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />

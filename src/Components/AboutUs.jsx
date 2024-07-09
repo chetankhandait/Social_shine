@@ -73,11 +73,7 @@ const AboutUs = () => {
         <div className="relative md:w-1/2 flex justify-center mb-3 md:mb-0">
           <div className="relative">
             <div className="   ">
-              <img
-                src="./about.jpg"
-                alt="Team"
-                className=" "
-              />
+              <img src="./about.jpg" alt="Team" className=" " />
             </div>
           </div>
         </div>
@@ -86,17 +82,19 @@ const AboutUs = () => {
             The core mission behind all our work
           </h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-         
-
-At our newly opened agency, our core mission drives every aspect of our work. We specialize in delivering exceptional social marketing services, customized website development, and effective advertising solutions. With a strong commitment to quality and innovation, we aim to exceed client expectations. Our goal is to empower businesses with cutting-edge digital strategies that drive success from the start.
+            At our newly opened agency, our core mission drives every aspect of
+            our work. We specialize in delivering exceptional social marketing
+            services, customized website development, and effective advertising
+            solutions. With a strong commitment to quality and innovation, we
+            aim to exceed client expectations. Our goal is to empower businesses
+            with cutting-edge digital strategies that drive success from the
+            start.
           </p>
-          
-          <Link to='/about-us' >
 
-
-          <button className="bg-blue-500 text-white py-2 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
-            More Details about us
-          </button>
+          <Link to="/about-us">
+            <button className="bg-blue-500 text-white py-2 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
+              More Details about us
+            </button>
           </Link>
         </div>
       </section>

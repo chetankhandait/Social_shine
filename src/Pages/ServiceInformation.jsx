@@ -4,7 +4,7 @@ import React from "react";
 
 const ServiceInformation = () => {
   return (
-    <div className="bg-black text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white  text-black py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-left">
           <h2 className="text-3xl font-extrabold  text-blue-400 sm:text-4xl mb-8">
