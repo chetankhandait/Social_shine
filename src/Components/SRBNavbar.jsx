@@ -15,7 +15,7 @@ const SRBNavbar = () => {
 
   return (
     <div className="relative z-50">
-      <div className="fixed top-5 left-5 border border-gray-400 bg-black py-3 shadow backdrop-blur-2xl rounded-3xl text-white">
+      <div className="fixed top-5 left-5 border border-gray-400 bg-[#0e0f11] py-3 shadow backdrop-blur-2xl rounded-3xl text-white">
         <div className="flex items-center">
           <div className="pl-2">
             <Link to="/" className="flex items-center">
@@ -78,7 +78,7 @@ const SRBNavbar = () => {
                     <Link to="/services" onClick={closeOverlay}>Services</Link>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <Link to="/work-sample" onClick={closeOverlay}>Work Sample</Link>
+                    <Link to="/dynamic" onClick={closeOverlay}>Work Sample</Link>
                   </div>
                 </section>
                 <section>

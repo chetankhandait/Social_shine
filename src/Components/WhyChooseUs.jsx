@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="bg-black py-16 px-8 mt-2">
+    <div className="bg-[#0e0f11] py-16 px-8 mt-2">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-white">
           Why <span className="text-blue-400">Choose Us</span>

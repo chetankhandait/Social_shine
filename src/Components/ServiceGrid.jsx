@@ -81,7 +81,7 @@ import { IoCodeSlashOutline } from "react-icons/io5"; // Example icon import
 
 const ServiceGrid = () => {
   return (
-    <div className="block mx-auto py-10 bg-black sm:p-10">
+    <div className="block mx-auto py-10 bg-[#0e0f11] sm:p-10">
       <div className="text-center mb-10">
         <h1 className="text-4xl sm:text-5xl font-bold text-blue-400">
           Our Outstanding Services

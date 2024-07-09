@@ -170,7 +170,7 @@ const faqData = [
 
 const FAQ = () => {
   return (
-    <section className="relative z-20 overflow-hidden bg-black pb-12 pt-20 lg:pb-[80px] lg:pt-[80px]">
+    <section className="relative z-20 overflow-hidden bg-[#0e0f11] pb-12 pt-20 lg:pb-[80px] lg:pt-[80px]">
       <div className="container mx-auto">
         <div className="mx-4 flex flex-wrap text-white">
           <div className="w-full px-4">

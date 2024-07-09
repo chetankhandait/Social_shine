@@ -149,7 +149,7 @@ const Hero = () => {
       <div className="w-full flex  flex-row ">
          
 
-        <div className="bg-black w-1/2 flex flex-col justify-center items-center text-center sm:text-left p-8">
+        <div className="bg-[#0e0f11] w-1/2 flex flex-col justify-center items-center text-center sm:text-left p-8">
           {" "}
           <div className="mx-auto z-10">
             <p className="text-white text-lg mb-4">We Are Creative</p>
