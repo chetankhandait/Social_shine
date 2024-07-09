@@ -468,10 +468,10 @@ import {
 // import { IoCodeSlashOutline } from "react-icons/io5";
 
 const FeatureCard = ({ Icon, title, description }) => (
-  <div className="relative overflow-hidden bg-white shadow-md rounded-xl h-full hover:bg-blue-600 cursor-pointer">
+  <div className="relative overflow-hidden bg-white shadow-md rounded-xl h-full hover:bg-blue-600   cursor-pointer">
     <div className="p-9">
       <Icon className="w-12 h-12 mx-auto text-gray-900 sm:mx-0" />
-      <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
+      <h3 className="mt-6 text-2xl font-bold text-gray-900  sm:mt-10">
         {title}
       </h3>
       <p className="mt-6 text-base text-gray-600 hover:text-white">
