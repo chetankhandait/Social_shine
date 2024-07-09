@@ -11,7 +11,7 @@ import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
-import MetaTags from "./SEO/MetaTags";
+import MetaTags from "./SEO/MetaTag";
 const App = () => {
   return (
     <BrowserRouter>
