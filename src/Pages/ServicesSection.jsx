@@ -1,95 +1,74 @@
-import React from "react";
-import {
-  FaLaptopCode,
-  FaMobileAlt,
-  FaCogs,
-  FaBullhorn,
-  FaPencilRuler,
-  FaShoppingCart,
-} from "react-icons/fa";
+ 
+import React from 'react'
 
-const ServiceCard = ({ service }) => (
-  <div className="relative overflow-hidden group h-[470px] w-[350px] bg-gray-800 mx-auto">
-    <div
-      className="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-300 transform scale-100 group-hover:scale-105"
-      style={{
-        backgroundImage: `url(${service.image})`,
-        // backgroundColor: "#38A89D", // Initial background color (transparent green)
-      }}
-    ></div>
-    <div className="relative z-10 flex flex-col items-start justify-start h-full p-6 bg-black bg-opacity-80 ">
-      <div className="mb-20 ml-2 mt-8">{service.icon}</div>
-      <h3 className="text-xl font-semibold text-white text-center mb-4">
-        {service.name}
-      </h3>
-      <p className="text-left text-gray-300 mb-10">{service.description}</p>
-      <a
-        href="#"
-        className="text-white inline-block bg-transparent font-bold transition-colors duration-300 mt-8"
-      >
-        SERVICE DETAILS »
-      </a>
-    </div>
-  </div>
-);
+const services = [
+  
+   
+  {
+    title: "Content Creator",
+    name: "Jane Smith",
+    image: "./developer-activity-animate.svg",
+    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+  },
+  {
+    title: "Content Creator",
+    name: "Jane Smith",
+    image: "./usability-testing-animate.svg",
+    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+  },
+  {
+    title: "Content Creator",
+    name: "Jane Smith",
+    image: "./website-maintence.svg",
+    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+  },
+  {
+    title: "Content Creator",
+    name: "Jane Smith",
+    image: "./social-networking-animate.svg",
+    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+  },
+];
 
 const ServicesSection = () => {
-  const services = [
-    {
-      name: "Web Design & Development",
-      description:
-        "Let us bring your vision to life with our creative and responsive web design and development services...",
-      icon: <FaLaptopCode size={60} className="text-blue-600" />,
-      image: "/website.png", // Replace with your image path
-    },
-    {
-      name: "App Development",
-      description:
-        "Be unique with our App Development services. We craft user-friendly and feature-rich apps that...",
-      icon: <FaMobileAlt size={60} className="text-green-600" />,
-      image: "/App.png", // Replace with your image path
-    },
-    {
-      name: "Website Maintenance",
-      description:
-        "Ensuring a smooth and secure online experience with regular updates, optimizations, and ...",
-      icon: <FaCogs size={60} className="text-red-600" />,
-      image: "/maintenance.png", // Replace with your image path
-    },
-    {
-      name: "Social Media Marketing",
-      description:
-        "Boost your online presence and reach your target audience effectively with our comprehensive digital marketing solutions...",
-      icon: <FaBullhorn size={60} className="text-yellow-600" />,
-      image: "/marketing.png", // Replace with your image path
-    },
-    {
-      name: "Graphic Designing",
-      description:
-        "Creating visually stunning and impactful designs for your brand and marketing materials...",
-      icon: <FaPencilRuler size={60} className="text-purple-600" />,
-      image: "/graphic.png", // Replace with your image path
-    },
-    {
-      name: "E-Commerce Solutions",
-      description:
-        "Providing robust and scalable e-commerce solutions to help you set up and manage your online store effectively...",
-      icon: <FaShoppingCart size={60} className="text-pink-600" />,
-      image: "/e-commerce.png", // Replace with your image path
-    },
-  ];
-
   return (
-    <section className="pb-12 bg-white">
-      <div className="max-w-screen-xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
-          {services.map((service, index) => (
-            <ServiceCard key={index} service={service} />
-          ))}
-        </div>
+    <>
+    <div className='text-center  '>
+      <h1 className='text-5xl font-semibold'>Our Services</h1>
+    </div>
+    <section className='grid grid-cols-4 r gap-4  my-6 mx-6'>
+      {services.map((service, index) => (
+        <div key={index}>
+          <a href="#" className="group relative block bg-white">
+  <img
+    alt={service.name}
+    src={service.image}
+    className="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">{service.title}</p>
+
+    <p className="text-xl font-bold text-black sm:text-2xl">{service.name}</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-black font-semibold">
+          {service.description}
+          
+        </p>
       </div>
+    </div>
+  </div>
+</a>
+        </div>
+      ))}
     </section>
-  );
-};
+    </>
+  )
+}
 
 export default ServicesSection;
+
