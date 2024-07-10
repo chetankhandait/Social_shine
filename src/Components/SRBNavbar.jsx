@@ -24,7 +24,7 @@ const SRBNavbar = () => {
                 alt=""
                 width={50}
                 height={60}
-                className="-translate-y-1"
+                className=""
               />
               <span className="font-extrabold hidden sm:block">Social Shine </span>
             </Link>
