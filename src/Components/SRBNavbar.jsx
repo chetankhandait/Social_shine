@@ -111,7 +111,7 @@ const SRBNavbar = () => {
                   </div>
                 </section>
               </div>
-              <div className="flex items-center gap-8 text-xl">
+              <div className="flex items-start gap-3 flex-col  sm:flex-row  sm:gap-8  text-xl">
                 <div className="cursor-pointer hover:text-white">
                   <Link to="/" onClick={closeOverlay}>
                     Our Work
