@@ -50,6 +50,9 @@ const services = [
 const ServicesComponent = () => {
   return (
     <section className="py-12 bg-white">
+      <h1 className="text-center text-6xl font-bold mb-8">
+        What's makes us?<span className="text-blue-600">Special</span>
+      </h1>
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
           {services.map((service, index) => (

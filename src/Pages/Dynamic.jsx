@@ -7,16 +7,22 @@ import TailoredWebDevelopment from "./TailoredWebDevelopment";
 import ServiceInfo from "./ServiceInfo";
 import ServiceFAQ from "./ServiceFAQ";
 import ServiceContent from "./ServiceContent";
+import ServiceFeature from "./ServiceFeature";
+import ServiceTechnology from "./ServiceTechnology";
 
 const Dynamic = () => {
   return (
     <>
       {/* <Navbar /> */}
+
       <ServiceInfo />
-      <ServiceContent />
       <TailoredWebDevelopment />
+      <ServiceContent />
       <SectionComponent />
+      <ServiceTechnology />
       <DynamicInfo />
+      <ServiceFeature />
+      <ServiceFAQ />
       {/* <div className="w-[94%] mx-auto">
         <div className="relative my-10">
           <div>

@@ -21,17 +21,21 @@ const ServiceContent = () => {
       text: "Why You Hire Us?",
     },
     {
-      id: "section5",
+      id: "section6",
       text: "Some FAQs For Your Convinience",
     },
     {
-      id: "section5",
+      id: "section7",
       text: "Get Ready! Take Your Quotation",
+    },
+    {
+      id: "section8",
+      text: "Explore Our More Services",
     },
   ];
   return (
-    <div className="bg-[#000000] text-white flex">
-      <div className="container mx-auto flex flex-wrap">
+    <div className="bg-white text-black flex">
+      <div className="container mx-auto flex flex-wrap py-8 px-6">
         <div className="w-full lg:w-2/3 p-4">
           <h1 id="section1" className="text-4xl font-bold mb-4">
             WHY IS WEB DESIGN SO IMPORTANT?
@@ -67,23 +71,43 @@ const ServiceContent = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/3 lg:h-screen bg-[#2a2e2e] p-6 rounded-lg mb-4 sm:mx-2 md:mx-0">
-          <h2 className="text-xl font-bold mb-8 text-gray-100">
-            TABLE OF CONTENTS
-          </h2>
-          <ul>
-            {tocItems.map((item) => (
-              <li key={item.id} className="mb-2">
-                <a
-                  href={`#${item.id}`}
-                  className="flex items-center justify-between text-white hover:text-[#1e2024] leading-9 hover:bg-gray-50 p-2 rounded-lg hover:font-semibold"
-                >
-                  <span className="mr-2">{item.text}</span>
-                  <FaChevronRight />
-                </a>
-              </li>
-            ))}
-          </ul>
+        <div className="w-full lg:w-1/3 xl:w-1/3 lg:h-auto  ">
+          <div className="bg-[#2a2e2e] p-6 rounded-lg my-4 sm:mx-2 md:mx-0">
+            <h2 className="text-xl font-bold mb-8 text-gray-100">
+              TABLE OF CONTENTS
+            </h2>
+            <ul>
+              {tocItems.map((item) => (
+                <li key={item.id} className="mb-2">
+                  <a
+                    href={`#${item.id}`}
+                    className="flex items-center justify-between text-white hover:text-[#1e2024] leading-9 hover:bg-gray-50 p-2 rounded-lg hover:font-semibold"
+                  >
+                    <span className="mr-2">{item.text}</span>
+                    <FaChevronRight />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* <div className="bg-[#2a2e2e] p-6 rounded-lg my-4 sm:mx-2 md:mx-0">
+            <h2 className="text-xl font-bold mb-8 text-gray-100">
+              TABLE OF CONTENTS
+            </h2>
+            <ul>
+              {tocItems.map((item) => (
+                <li key={item.id} className="mb-2">
+                  <a
+                    href={`#${item.id}`}
+                    className="flex items-center justify-between text-white hover:text-[#1e2024] leading-9 hover:bg-gray-50 p-2 rounded-lg hover:font-semibold"
+                  >
+                    <span className="mr-2">{item.text}</span>
+                    <FaChevronRight />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div> */}
         </div>
       </div>
     </div>
