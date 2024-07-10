@@ -26,7 +26,9 @@ const SRBNavbar = () => {
                 height={60}
                 className=""
               />
-              <span className="font-extrabold hidden sm:block">Social Shine </span>
+              <span className="font-extrabold hidden sm:block">
+                Social Shine{" "}
+              </span>
             </Link>
           </div>
 
@@ -37,7 +39,7 @@ const SRBNavbar = () => {
                 className="bg-blue-600 py-2 px-2 font-semibold rounded"
                 onClick={closeOverlay} // Close overlay when Contact Us link is clicked
               >
-                Contact Us
+                Get a Quote
               </Link>
             </div>
             <div>
@@ -69,41 +71,61 @@ const SRBNavbar = () => {
               <div className="flex gap-4 sm:gap-28 sm:justify-between">
                 <section className="text-4xl flex flex-col gap-7 font-semibold text-[#747474] sm:text-5xl">
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <Link to="/" onClick={closeOverlay}>Home</Link>
+                    <Link to="/" onClick={closeOverlay}>
+                      Home
+                    </Link>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <Link to="/about-us" onClick={closeOverlay}>About Us</Link>
+                    <Link to="/about-us" onClick={closeOverlay}>
+                      About Us
+                    </Link>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <Link to="/services" onClick={closeOverlay}>Services</Link>
+                    <Link to="/services" onClick={closeOverlay}>
+                      Services
+                    </Link>
                   </div>
                   <div className="cursor-pointer hover:text-white transition-all">
-                    <Link to="/dynamic" onClick={closeOverlay}>Work Sample</Link>
+                    <Link to="/dynamic" onClick={closeOverlay}>
+                      Work Sample
+                    </Link>
                   </div>
                 </section>
                 <section>
                   <div className="flex flex-col justify-center gap-4 text-lg">
                     <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>Service</Link>
+                      <Link to="/" onClick={closeOverlay}>
+                        Service
+                      </Link>
                     </div>
                     <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>Service</Link>
+                      <Link to="/" onClick={closeOverlay}>
+                        Service
+                      </Link>
                     </div>
                     <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>Service</Link>
+                      <Link to="/" onClick={closeOverlay}>
+                        Service
+                      </Link>
                     </div>
                   </div>
                 </section>
               </div>
               <div className="flex items-start gap-3 flex-col  sm:flex-row  sm:gap-8  text-xl">
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/dynamic" onClick={closeOverlay}>Website Development</Link>
+                  <Link to="/" onClick={closeOverlay}>
+                    Our Work
+                  </Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/dynamic" onClick={closeOverlay}>App Development</Link>
+                  <Link to="/" onClick={closeOverlay}>
+                    Our Work
+                  </Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/dynamic" onClick={closeOverlay}> Social Media  Handeling </Link>
+                  <Link to="/" onClick={closeOverlay}>
+                    Our Work
+                  </Link>
                 </div>
               </div>
             </div>
