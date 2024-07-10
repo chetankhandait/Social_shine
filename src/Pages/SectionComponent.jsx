@@ -53,7 +53,7 @@ const ServicesComponent = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
           {services.map((service, index) => (
-            <div key={index} className="w-full md:w-1/3 px-4 mb-8">
+            <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
               <div className="bg-white p-6 rounded-lg cursor-pointer text-center hover:shadow-lg transition-shadow duration-300 h-full flex flex-col justify-between">
                 <div className="h-full">
                   {" "}
