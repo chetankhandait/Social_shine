@@ -6,19 +6,27 @@ const ServiceContent = () => {
     { id: "section1", text: "Why Is Web Design So Important" },
     {
       id: "section2",
-      text: "Upgrade Your Business With Our Top-Notch Assistance",
+      text: "What's Special In Our Services",
     },
     {
       id: "section3",
-      text: "Why Should You Choose DigiMark Agency As Your Website Development Partner?",
+      text: "Web Services We Have For You",
     },
     {
       id: "section4",
-      text: "Here Are Some Reasons Why Digimark Agency's Services Are Extraordinary",
+      text: "Technologies We Use For Design & Development",
     },
     {
       id: "section5",
-      text: "Web Design And Development: A Need For Today's World",
+      text: "Why You Hire Us?",
+    },
+    {
+      id: "section5",
+      text: "Some FAQs For Your Convinience",
+    },
+    {
+      id: "section5",
+      text: "Get Ready! Take Your Quotation",
     },
   ];
   return (
@@ -29,9 +37,9 @@ const ServiceContent = () => {
             WHY IS WEB DESIGN SO IMPORTANT?
           </h1>
           <img
-            src="path_to_your_image.jpg"
+            src="/work.jpg"
             alt="Web Design Importance"
-            className="w-full h-auto mb-4 rounded"
+            className="w-96 h-auto mb-4 rounded"
           />
           <p className="text-lg leading-8 mb-4">
             In the bustling landscape of digital business, finding the right web
@@ -59,7 +67,7 @@ const ServiceContent = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/3 bg-[#2a2e2e] p-6 rounded-lg mb-4">
+        <div className="w-full lg:w-1/3 lg:h-screen bg-[#2a2e2e] p-6 rounded-lg mb-4 sm:mx-2 md:mx-0">
           <h2 className="text-xl font-bold mb-8 text-gray-100">
             TABLE OF CONTENTS
           </h2>
