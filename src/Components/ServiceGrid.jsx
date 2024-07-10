@@ -78,6 +78,7 @@
 // export default ServiceGrid;
 import React from "react";
 import { IoCodeSlashOutline } from "react-icons/io5"; // Example icon import
+import { Link } from "react-router-dom";
 
 const ServiceGrid = () => {
   return (
@@ -157,9 +158,14 @@ const ServiceGrid = () => {
         </div>
       </div>
       <div className="text-center mt-10">
+        <Link to="/services">
+
+
+
         <button className="bg-blue-600 text-white py-3 px-6 rounded-full text-lg sm:text-xl hover:bg-blue-700 transition duration-300">
           Check Out Our More Services ➤➤
         </button>
+        </Link>
       </div>
     </div>
   );

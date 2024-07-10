@@ -97,13 +97,13 @@ const SRBNavbar = () => {
               </div>
               <div className="flex items-center gap-8 text-xl">
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>Our Work</Link>
+                  <Link to="/" onClick={closeOverlay}>Website Development</Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>Our Work</Link>
+                  <Link to="/" onClick={closeOverlay}>App Development</Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>Our Work</Link>
+                  <Link to="/dynamic" onClick={closeOverlay}> Social Media Handeling </Link>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import React from "react";
 const DynamicInfo = () => {
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:space-x-12">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:space-x-14">
         <div className="flex-1">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
             About Our Templates
@@ -84,7 +84,7 @@ const DynamicInfo = () => {
         </div>
         <div className="flex-1 mt-10 lg:mt-0">
           <img
-            src="/laptop.webp"
+            src="/website-creator-animate.svg"
             alt="Website Template"
             className="w-full rounded-lg "
           />
