@@ -1,6 +1,10 @@
-function ServiceInfo() {
+function ServiceInfo(prop) {
+  console.log(prop)
+
   return (
     <>
+ 
+         
       <div className="relative bg-black overflow-hidden">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 lg:px-8 py-24">
           <div className="relative z-10 max-w-lg w-full bg-white p-8 rounded-lg shadow-lg">
@@ -45,6 +49,7 @@ function ServiceInfo() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }

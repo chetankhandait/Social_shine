@@ -15,13 +15,14 @@ const Dynamic = () => {
   const {id} = useParams();
   console.log(id)
   const Service = servicesData.find((find)=>find.id===id)
-console.log(Service)
+ const Data= {...Service}
+ 
   return (
     <>
       {/* <Navbar /> */}
       <div className="font-medium">
 
-      <ServiceInfo />
+      <ServiceInfo {...Service} />
       <TailoredWebDevelopment />
       <ServiceContent />
       <SectionComponent />
