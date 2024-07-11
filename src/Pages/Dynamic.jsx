@@ -9,8 +9,13 @@ import ServiceFAQ from "./ServiceFAQ";
 import ServiceContent from "./ServiceContent";
 import ServiceFeature from "./ServiceFeature";
 import ServiceTechnology from "./ServiceTechnology";
- 
+import { useParams } from "react-router-dom";
+import servicesData from "../Data/Data";
 const Dynamic = () => {
+  const {id} = useParams();
+  console.log(id)
+  const Service = servicesData.find((find)=>find.id===id)
+console.log(Service)
   return (
     <>
       {/* <Navbar /> */}

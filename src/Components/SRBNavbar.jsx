@@ -113,13 +113,13 @@ const SRBNavbar = () => {
               </div>
               <div className="flex items-start gap-3 flex-col  sm:flex-row  sm:gap-8  text-xl">
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>
-                    Our Work
+                  <Link to="/dynamic/web" onClick={closeOverlay}>
+                   Web development
                   </Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>
-                    Our Work
+                  <Link to="/dynamic/social media handeling" onClick={closeOverlay}>
+                    Social Media Handeling 
                   </Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">

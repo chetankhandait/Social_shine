@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/work-sample" element={<WorkSample />} />
-        <Route path="/dynamic" element={<Dynamic />} />
+        <Route path="/dynamic/:id" element={<Dynamic />} />
       </Routes>
     </BrowserRouter>
   );
