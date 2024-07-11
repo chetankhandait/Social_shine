@@ -9,11 +9,12 @@ import ServiceFAQ from "./ServiceFAQ";
 import ServiceContent from "./ServiceContent";
 import ServiceFeature from "./ServiceFeature";
 import ServiceTechnology from "./ServiceTechnology";
-
+ 
 const Dynamic = () => {
   return (
     <>
       {/* <Navbar /> */}
+      <div className="font-medium">
 
       <ServiceInfo />
       <TailoredWebDevelopment />
@@ -23,6 +24,7 @@ const Dynamic = () => {
       <DynamicInfo />
       <ServiceFeature />
       <ServiceFAQ />
+      </div>
       {/* <div className="w-[94%] mx-auto">
         <div className="relative my-10">
           <div>
