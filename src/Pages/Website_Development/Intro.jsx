@@ -1,5 +1,4 @@
-function ServiceInfo({ data }) {
-  console.log(data);
+function Intro() {
   return (
     <>
       <div className="relative bg-black overflow-hidden">
@@ -51,4 +50,4 @@ function ServiceInfo({ data }) {
   );
 }
 
-export default ServiceInfo;
+export default Intro;

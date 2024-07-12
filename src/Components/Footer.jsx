@@ -1,4 +1,3 @@
- 
 import React from "react";
 import {
   FaFacebookF,
@@ -11,7 +10,10 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section className="bg-[#0e0f11] text-white pt-20 pb-8 flex lg:min-h-screen flex-col items-center justify-center">
+    <section
+      className="bg-[#0e0f11] text-white pt-20 pb-8 flex lg:min-h-screen flex-col items-center justify-center"
+      id="Contact"
+    >
       <div className="text-center">
         <h2 className="text-3xl md:text-6xl font-bold mb-8">
           <span className="text-blue-400"> Are you</span> ready?

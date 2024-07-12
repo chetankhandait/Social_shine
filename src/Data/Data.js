@@ -82,19 +82,22 @@ const servicesData = [
         title: "Technologies We Use For Social Media Management",
         technologies: [
           {
-            title: "full-stack-management",
+            title: "Full-Stack Management",
             description:
               "Comprehensive social media management services for all your needs. We provide end-to-end full-stack management services, ensuring your social media presence is scalable, secure, and engaging.",
+            image: "/full-stack developer.webp",
           },
           {
-            title: "no-code-platforms",
+            title: "No-Code Platforms",
             description:
               "Effortless social media management with no coding required. Our no-code platform services allow you to manage and customize your social media effortlessly without needing any coding skills.",
+            image: "/WIX.jpg",
           },
           {
-            title: "custom-solutions",
+            title: "Custom Solutions",
             description:
               "Tailored social media solutions to meet your unique needs. We offer custom management solutions designed to meet your specific business requirements and help you achieve your goals.",
+            image: "/custom-solution.jpg",
           },
         ],
       },
@@ -147,6 +150,39 @@ const servicesData = [
         title: "Affordable Pricing & Time Management",
         description:
           "We offer affordable pricing and efficient time management without compromising on quality. Our cost-effective solutions ensure timely delivery, making us a preferred choice for businesses of all sizes.",
+      },
+      {
+        title: "FAQs",
+        faqs: [
+          {
+            header: "What services do you offer in web development?",
+            text: "We offer a comprehensive range of services including custom website design, e-commerce development, CMS development, website maintenance, and SEO optimization.",
+          },
+          {
+            header: "How long does it take to develop a website?",
+            text: "The timeline for website development varies depending on the complexity of the project. Generally, it takes 4-6 weeks to develop a standard website.",
+          },
+          {
+            header: "Do you provide post-launch support?",
+            text: "Yes, we provide ongoing support and maintenance services after the website launch to ensure your site remains up-to-date and performs optimally.",
+          },
+          {
+            header: "Can you help with website redesign?",
+            text: "Absolutely! We can help revamp your existing website to enhance its design, functionality, and performance.",
+          },
+          {
+            header: "What technologies do you use for web development?",
+            text: "We use a variety of technologies including HTML, CSS, JavaScript, React, Node.js, WordPress, and more, depending on the project requirements.",
+          },
+          {
+            header: "Do you offer responsive web design?",
+            text: "Yes, all our websites are designed to be fully responsive and provide an optimal viewing experience across different devices and screen sizes.",
+          },
+          {
+            header: "What is your pricing model?",
+            text: "Our pricing depends on the scope and complexity of the project. We offer competitive pricing and provide a detailed quote after discussing your specific requirements.",
+          },
+        ],
       },
     ],
   },

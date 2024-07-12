@@ -12,6 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
 import MetaTags from "./SEO/MetaTag";
+import WebsiteDevlopment from "./Pages/Website_Development/WebsiteDevlopment";
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/web-devlopment" element={<WebsiteDevlopment />} />
         <Route path="/work-sample" element={<WorkSample />} />
         <Route path="/dynamic/:id" element={<Dynamic />} />
       </Routes>
