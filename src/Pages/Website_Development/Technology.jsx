@@ -3,7 +3,7 @@ function Technology() {
   return (
     <div>
       <h2
-        className="ml-6 font-bold text-5xl mb-12 text-center"
+        className="ml-6 font-bold text-4xl mb-12 text-center"
         id="Technologies"
       >
         <span className="text-blue-600">Technologies!</span> We Used For Design

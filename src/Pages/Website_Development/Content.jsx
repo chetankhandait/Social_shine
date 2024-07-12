@@ -71,7 +71,7 @@ function Content() {
         </div>
 
         <div className="w-full lg:w-1/3 xl:w-1/3 lg:h-auto  ">
-          <div className="bg-[#2a2e2e] p-6 rounded-lg my-4 sm:mx-2 md:mx-0">
+          <div className="bg-[#2a2e2e] p-4 rounded-lg my-4 sm:mx-0 md:mx-0">
             <h2 className="text-xl font-bold mb-8 text-gray-100">
               TABLE OF CONTENTS
             </h2>
@@ -82,7 +82,7 @@ function Content() {
                     href={`#${item.id}`}
                     className="flex items-center justify-between text-white hover:text-[#1e2024] leading-9 hover:bg-gray-50 p-2 rounded-lg hover:font-semibold"
                   >
-                    <span className="mr-2">{item.text}</span>
+                    <span className="mr-2 text-[14px]">{item.text}</span>
                     <FaChevronRight />
                   </a>
                 </li>
