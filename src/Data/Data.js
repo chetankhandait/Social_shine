@@ -7,7 +7,7 @@ const servicesData = [
         description:
           "Provide solutions to small agencies. There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
         actions: ["Discover More", "Explore Services"],
-        animatedSvg: "Animated SVG",
+        animatedSvg: "./maintenance.png",
         specialization:
           "Specializing in Tailored Social Media Handling Services for Your Unique Business Needs - Your Trusted Social Media Agency",
         transformation:

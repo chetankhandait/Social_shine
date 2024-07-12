@@ -1,6 +1,6 @@
-function ServiceInfo(prop) {
-  console.log(prop)
-
+function ServiceInfo({data}) {
+  
+console.log(data)
   return (
     <>
  
@@ -10,15 +10,14 @@ function ServiceInfo(prop) {
           <div className="relative z-10 max-w-lg w-full bg-white p-8 rounded-lg shadow-lg">
             <main className="sm:text-center lg:text-left">
               <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-xl md:text-3xl">
-                <span className="">Web Development</span>
+                <span className="">{data.title}</span>
                 <br />
                 <span className=" text-indigo-600">
                   Provide solutions to small agency
                 </span>
               </h1>
               <p className="mt-3 text-base text-[#0e0f11] sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-lg">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered.
+                {data.description}
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -42,7 +41,7 @@ function ServiceInfo(prop) {
           </div>
           <div className="relative z-10 max-w-lg w-full ml-8">
             <img
-              src="./mobile-marketing-animate.svg" // replace with your animated SVG URL
+              src={data.animatedSvg} // replace with your animated SVG URL
               alt="Animated SVG"
               className="w-full h-auto"
             />
