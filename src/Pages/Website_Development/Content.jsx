@@ -82,7 +82,7 @@ function Content() {
                     href={`#${item.id}`}
                     className="flex items-center justify-between text-white hover:text-[#1e2024] leading-9 hover:bg-gray-50 p-2 rounded-lg hover:font-semibold"
                   >
-                    <span className="mr-2 text-[14px]">{item.text}</span>
+                    <span className="mr-2 text-[15px]">{item.text}</span>
                     <FaChevronRight />
                   </a>
                 </li>
