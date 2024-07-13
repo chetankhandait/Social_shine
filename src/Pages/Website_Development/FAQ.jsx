@@ -82,7 +82,9 @@ const AccordionItem = ({ header, text }) => {
         onClick={handleToggle}
       >
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-semibold text-white">{header}</h4>
+          <h4 className="mt-1 text-[12px] md:text-[18px] font-semibold text-white">
+            {header}
+          </h4>
         </div>
         <div className="flex items-center justify-center w-10 h-10 bg-primary/5 text-primary dark:bg-white/5 rounded-lg">
           <span
