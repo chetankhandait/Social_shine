@@ -7,7 +7,6 @@ import Services from "./Components/Service";
 import SeprateService from "./Pages/SeprateService";
 import WorkSample from "./Pages/WorkSample";
 import ContactUs from "./Pages/ContactUs";
-import Dynamic from "./Pages/Dynamic";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
@@ -26,8 +25,10 @@ const App = () => {
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/web-devlopment" element={<WebsiteDevlopment />} />
+        <Route path="/social-media-handeling" element={<WebsiteDevlopment />} />
         <Route path="/work-sample" element={<WorkSample />} />
-        <Route path="/dynamic/:id" element={<Dynamic />} />
+
+        
       </Routes>
     </BrowserRouter>
   );
