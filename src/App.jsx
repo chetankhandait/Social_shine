@@ -10,7 +10,6 @@ import ContactUs from "./Pages/ContactUs";
 import ScrollToTop from "./ScrollToTop";
 import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
-import MetaTags from "./SEO/MetaTag";
 import WebsiteDevlopment from "./Pages/Website_Development/WebsiteDevlopment";
 import SocialMediaHandeling from "./Pages/Social-Media-handeling/SocialMediaHandeling";
 const App = () => {
@@ -18,7 +17,7 @@ const App = () => {
     <BrowserRouter basename="/">
       <ScrollToTop />
       {/* <FloatingNav/> */}
-      <MetaTags />
+       
       <SRBNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
