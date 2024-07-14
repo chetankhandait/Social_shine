@@ -83,7 +83,7 @@ const Service = () => {
         </div>
         <div className="flex-1 mt-10 lg:mt-0">
           <img
-            src="/website-creator-animate.svg"
+            src="/start-up.png"
             alt="Website Template"
             className="w-full rounded-lg"
           />

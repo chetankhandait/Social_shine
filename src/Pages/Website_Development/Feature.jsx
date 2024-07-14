@@ -6,7 +6,7 @@ function Feature() {
       <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl py-8">
         <div>
           <h2 className="text-3xl font-bold text-center sm:text-5xl">
-            New Features
+            Features
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center">
             Explore the latest features that enhance your website experience and

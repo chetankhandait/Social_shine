@@ -49,7 +49,7 @@ const services = [
 const Specialities = () => {
   return (
     <section className="py-12 bg-white" id="speciaties">
-      <h1 className="text-center text-4xl font-bold mb-8">
+      <h1 className="text-center text-3xl md:text-4xl font-bold mb-8">
         What's makes us?<span className="text-blue-600">Special</span>
       </h1>
       <div className="container mx-auto px-4">

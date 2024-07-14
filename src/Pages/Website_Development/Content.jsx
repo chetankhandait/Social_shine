@@ -37,7 +37,8 @@ function Content() {
       <div className="container mx-auto flex flex-wrap py-8 px-6">
         <div className="w-full lg:w-2/3 p-4">
           <h1 id="section1" className="text-4xl font-bold mb-4">
-            WHY IS WEB DESIGN SO IMPORTANT?
+            WHY IS <span className="text-blue-600">Web Development</span> SO
+            IMPORTANT?
           </h1>
           <img
             src="/work.jpg"

@@ -1,15 +1,16 @@
-import { FaUser , FaTools , FaAward , FaClock } from "react-icons/fa";
+import { FaUser, FaTools, FaAward, FaClock } from "react-icons/fa";
 
 function Feature() {
   return (
     <section id="features">
       <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl py-8">
         <div>
-          <h2 className="text-3xl font-bold text-center sm:text-5xl">
-            New Features
+          <h2 className="text-4xl font-bold text-center md:text-5xl">
+            Features
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center">
-            Explore the latest features that enhance your social media handling experience and make it even more exciting.
+            Explore the latest features that enhance your social media handling
+            experience and make it even more exciting.
           </p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
@@ -28,39 +29,45 @@ function Feature() {
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md bg-indigo-500 text-white">
-                    <FaUser  />
+                    <FaUser />
                   </div>
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Audience Engagement</h4>
                   <p className="mt-2">
-                    We enhance audience engagement through targeted strategies, ensuring meaningful interactions with your community.
+                    We enhance audience engagement through targeted strategies,
+                    ensuring meaningful interactions with your community.
                   </p>
                 </div>
               </div>
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md bg-purple-500 text-white">
-                    <FaTools  />
+                    <FaTools />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium">Tools  & Analytics</h4>
+                  <h4 className="text-lg font-medium">Tools & Analytics</h4>
                   <p className="mt-2">
-                    We utilize advanced tools and analytics to monitor performance metrics, optimizing your social media campaigns effectively.
+                    We utilize advanced tools and analytics to monitor
+                    performance metrics, optimizing your social media campaigns
+                    effectively.
                   </p>
                 </div>
               </div>
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-500 text-white">
-                    <FaAward  />
+                    <FaAward />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium">Recognition & Branding</h4>
+                  <h4 className="text-lg font-medium">
+                    Recognition & Branding
+                  </h4>
                   <p className="mt-2">
-                    We focus on building brand recognition through consistent messaging and impactful branding strategies.
+                    We focus on building brand recognition through consistent
+                    messaging and impactful branding strategies.
                   </p>
                 </div>
               </div>
@@ -73,7 +80,9 @@ function Feature() {
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Time Management</h4>
                   <p className="mt-2">
-                    We ensure efficient time management, delivering results within stipulated timelines while maintaining high quality standards.
+                    We ensure efficient time management, delivering results
+                    within stipulated timelines while maintaining high quality
+                    standards.
                   </p>
                 </div>
               </div>

@@ -85,7 +85,7 @@ const Service = () => {
         </div>
         <div className="flex-1 mt-10 lg:mt-0">
           <img
-            src="/start-up.png"
+            src="/Wall post-amico.svg"
             alt="Social Media Management"
             className="w-full rounded-lg"
           />
