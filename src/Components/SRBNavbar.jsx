@@ -92,23 +92,8 @@ const SRBNavbar = () => {
                   </div>
                 </section>
                 <section>
-                  <div className="flex flex-col justify-center gap-4 text-lg">
-                    <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>
-                        Service
-                      </Link>
-                    </div>
-                    <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>
-                        Service
-                      </Link>
-                    </div>
-                    <div className="cursor-pointer hover:text-white transition-all">
-                      <Link to="/" onClick={closeOverlay}>
-                        Service
-                      </Link>
-                    </div>
-                  </div>
+               
+                     
                 </section>
               </div>
               <div className="flex items-start gap-3 flex-col  sm:flex-row  sm:gap-8  text-xl">
