@@ -1,13 +1,14 @@
+
 const Service = () => {
   return (
-    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8 " id="service">
+    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8" id="service">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:space-x-14">
         <div className="flex-1">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-            About Our Templates
+            About Our Services
           </h2>
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Website Development Services we have for you
+            Social Media Management Services We Offer
           </h3>
           <div className="mt-10 space-y-8">
             <div className="flex items-start">
@@ -18,12 +19,10 @@ const Service = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-lg leading-6 font-medium text-gray-900">
-                  Website Design & Development
+                  Social Media Strategy
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  Our team combines creativity and functionality to design and
-                  develop websites that not only look great but also perform
-                  exceptionally well.
+                  We develop comprehensive social media strategies tailored to your business goals, ensuring a cohesive and effective online presence.
                 </p>
               </div>
             </div>
@@ -36,11 +35,10 @@ const Service = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-lg leading-6 font-medium text-gray-900">
-                  E-commerce Development
+                  Content Creation
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  We specialize in building robust and secure e-commerce
-                  platforms that drive sales and enhance user experience.
+                  Our team creates engaging and visually appealing content that resonates with your audience, driving engagement and brand loyalty.
                 </p>
               </div>
             </div>
@@ -53,11 +51,10 @@ const Service = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-lg leading-6 font-medium text-gray-900">
-                  Fully responsive design
+                  Community Management
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  In today’s mobile-first world, we ensure that all our websites
-                  are responsive and optimized for various devices.
+                  We manage your social media communities by fostering meaningful interactions, responding to comments, and engaging with your audience.
                 </p>
               </div>
             </div>
@@ -70,12 +67,10 @@ const Service = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-lg leading-6 font-medium text-gray-900">
-                  SEO Optimization
+                  Analytics and Reporting
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  We offer search engine optimization services to help your
-                  website rank higher on search engine results pages, increasing
-                  your online visibility.
+                  We provide detailed analytics and reports to track the performance of your social media campaigns, ensuring data-driven decisions for continuous improvement.
                 </p>
               </div>
             </div>
@@ -83,8 +78,8 @@ const Service = () => {
         </div>
         <div className="flex-1 mt-10 lg:mt-0">
           <img
-            src="/website-creator-animate.svg"
-            alt="Website Template"
+            src="/Wall post-amico.svg"
+            alt="Social Media Management"
             className="w-full rounded-lg"
           />
         </div>

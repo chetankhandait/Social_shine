@@ -1,56 +1,56 @@
 import {
-  FaDesktop,
-  FaServer,
-  FaMobileAlt,
-  FaPen,
-  FaLock,
-  FaBug,
+  FaComments,
+  FaRegChartBar,
+  FaRegCalendarAlt,
+  FaShareAlt,
+  FaUsers,
+  FaBullhorn,
 } from "react-icons/fa";
 
 const services = [
   {
-    icon: <FaDesktop className="w-12 h-12 mx-auto" />,
-    title: "Graphic User Interface (UI)",
+    icon: <FaComments className="w-12 h-12 mx-auto" />,
+    title: "Social Media Strategy",
     description:
-      "Our Graphic User Interface Design language allows unified user experience through innovative design and upgraded technology.",
+      "Develop comprehensive social media strategies tailored to your business goals, ensuring a cohesive and effective online presence.",
   },
   {
-    icon: <FaServer className="w-12 h-12 mx-auto" />,
-    title: "Bootstrapping",
+    icon: <FaRegChartBar className="w-12 h-12 mx-auto" />,
+    title: "Analytics and Reporting",
     description:
-      "Our Website development services help in developing a super-responsive, easy-accessible and mobile-friendly front-end and web development application.",
+      "Provide detailed analytics and reports to track the performance of your social media campaigns, ensuring data-driven decisions for continuous improvement.",
   },
   {
-    icon: <FaMobileAlt className="w-12 h-12 mx-auto" />,
-    title: "Screen Optimized",
+    icon: <FaRegCalendarAlt className="w-12 h-12 mx-auto" />,
+    title: "Content Scheduling",
     description:
-      "Our responsive design enables the best visibility of your website from any device with different screen-sizes and provides a practical flexibility beyond imagination.",
+      "Plan and schedule your social media content to ensure timely and consistent posting across all platforms.",
   },
   {
-    icon: <FaPen className="w-12 h-12 mx-auto" />,
-    title: "Content Update",
+    icon: <FaShareAlt className="w-12 h-12 mx-auto" />,
+    title: "Content Creation",
     description:
-      "We ensure your website content is always up-to-date with the latest information and trends.",
+      "Create engaging and visually appealing content that resonates with your audience, driving engagement and brand loyalty.",
   },
   {
-    icon: <FaLock className="w-12 h-12 mx-auto" />,
-    title: "Application Security",
+    icon: <FaUsers className="w-12 h-12 mx-auto" />,
+    title: "Community Management",
     description:
-      "We provide top-notch security features to keep your application safe from potential threats.",
+      "Manage your social media communities by fostering meaningful interactions, responding to comments, and engaging with your audience.",
   },
   {
-    icon: <FaBug className="w-12 h-12 mx-auto" />,
-    title: "Error / Bug Fixing",
+    icon: <FaBullhorn className="w-12 h-12 mx-auto" />,
+    title: "Paid Advertising",
     description:
-      "Our team quickly identifies and resolves any issues or bugs to ensure smooth operation of your website.",
+      "Implement targeted social media advertising campaigns to reach a broader audience and achieve specific marketing objectives.",
   },
 ];
 
 const Specialities = () => {
   return (
-    <section className="py-12 bg-white" id="speciaties">
+    <section className="py-12 bg-white" id="specialities">
       <h1 className="text-center text-6xl font-bold mb-8">
-        What's makes us?<span className="text-blue-600">Special</span>
+        What Makes Us <span className="text-blue-600">Special</span>
       </h1>
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
@@ -58,8 +58,6 @@ const Specialities = () => {
             <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
               <div className="bg-white p-6 rounded-lg cursor-pointer text-center hover:shadow-lg transition-shadow duration-300 h-full flex flex-col justify-between">
                 <div className="h-full">
-                  {" "}
-                  {/* Ensure consistent height */}
                   {service.icon}
                   <h3 className="mt-4 text-xl font-semibold">
                     {service.title}

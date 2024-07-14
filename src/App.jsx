@@ -12,6 +12,7 @@ import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
 import MetaTags from "./SEO/MetaTag";
 import WebsiteDevlopment from "./Pages/Website_Development/WebsiteDevlopment";
+import SocialMediaHandeling from "./Pages/Social-Media-handeling/SocialMediaHandeling";
 const App = () => {
   return (
     <BrowserRouter>
@@ -25,7 +26,7 @@ const App = () => {
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/web-devlopment" element={<WebsiteDevlopment />} />
-        <Route path="/social-media-handeling" element={<WebsiteDevlopment />} />
+        <Route path="/social-media-handeling" element={<SocialMediaHandeling />} />
         <Route path="/work-sample" element={<WorkSample />} />
 
         

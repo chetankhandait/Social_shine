@@ -8,7 +8,7 @@ import FAQ from "./FAQ";
 import Footer from "../../Components/Footer";
 import Specialities from "./Specialities";
 
-function socialMediaHandeling() {
+function SocialMediaHandeling() {
   return (
     <div>
       <Intro />
@@ -24,4 +24,4 @@ function socialMediaHandeling() {
   );
 }
 
-export default socialMediaHandeling;
+export default SocialMediaHandeling;

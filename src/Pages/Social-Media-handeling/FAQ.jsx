@@ -2,32 +2,32 @@ import { useState } from "react";
 
 const faqData = [
   {
-    header: "What services do you offer in web development?",
-    text: "We offer a comprehensive range of services including custom website design, e-commerce development, CMS development, website maintenance, and SEO optimization.",
+    header: "What services do you offer in social media handling?",
+    text: "We offer comprehensive social media handling services including content creation, community management, paid social advertising, influencer marketing, and social media analytics.",
   },
   {
-    header: "How long does it take to develop a website?",
-    text: "The timeline for website development varies depending on the complexity of the project. Generally, it takes 4-6 weeks to develop a standard website.",
+    header: "How long does it take to see results from social media campaigns?",
+    text: "The timeline for seeing results varies based on campaign goals and strategies. Typically, initial results can be seen within a few weeks, with ongoing optimizations for better performance.",
   },
   {
-    header: "Do you provide post-launch support?",
-    text: "Yes, we provide ongoing support and maintenance services after the website launch to ensure your site remains up-to-date and performs optimally.",
+    header: "Do you provide analytics and reporting for social media campaigns?",
+    text: "Yes, we provide detailed analytics and reporting to track the performance of social media campaigns, measure ROI, and make informed decisions for optimization.",
   },
   {
-    header: "Can you help with website redesign?",
-    text: "Absolutely! We can help revamp your existing website to enhance its design, functionality, and performance.",
+    header: "Can you help with developing a social media strategy?",
+    text: "Absolutely! We can assist in developing a tailored social media strategy aligned with your business objectives to maximize engagement and conversions.",
   },
   {
-    header: "What technologies do you use for web development?",
-    text: "We use a variety of technologies including HTML, CSS, JavaScript, React, Node.js, WordPress, and more, depending on the project requirements.",
+    header: "What platforms do you specialize in for social media marketing?",
+    text: "We specialize in platforms like Facebook, Instagram, Twitter, LinkedIn, TikTok, and more, crafting strategies specific to each platform's audience and features.",
   },
   {
-    header: "Do you offer responsive web design?",
-    text: "Yes, all our websites are designed to be fully responsive and provide an optimal viewing experience across different devices and screen sizes.",
+    header: "Do you offer influencer marketing services?",
+    text: "Yes, we collaborate with influencers relevant to your niche to amplify brand reach, increase credibility, and drive targeted engagement for your social media campaigns.",
   },
   {
-    header: "What is your pricing model?",
-    text: "Our pricing depends on the scope and complexity of the project. We offer competitive pricing and provide a detailed quote after discussing your specific requirements.",
+    header: "What is your approach to community management?",
+    text: "Our approach focuses on building and nurturing communities around your brand, fostering meaningful interactions, addressing concerns promptly, and enhancing brand loyalty.",
   },
 ];
 
@@ -49,7 +49,7 @@ const FAQ = () => {
               </h2>
               <p className="text-base text-gray-400">
                 Here are some of the most common questions we get asked about
-                our website development services.
+                our social media handling services.
               </p>
             </div>
           </div>
