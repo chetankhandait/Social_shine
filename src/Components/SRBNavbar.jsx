@@ -122,11 +122,7 @@ const SRBNavbar = () => {
                     Social Media Handeling 
                   </Link>
                 </div>
-                <div className="cursor-pointer hover:text-white">
-                  <Link to="/" onClick={closeOverlay}>
-                    Our Work
-                  </Link>
-                </div>
+                 
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@ import WebsiteDevlopment from "./Pages/Website_Development/WebsiteDevlopment";
 import SocialMediaHandeling from "./Pages/Social-Media-handeling/SocialMediaHandeling";
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <ScrollToTop />
       {/* <FloatingNav/> */}
       <MetaTags />
