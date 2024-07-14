@@ -13,15 +13,9 @@ import BusinessSection from "./BuisnessSection";
 const AboutUs = () => {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Navbar /> */}
-
       <AboutIntro />
       <BusinessSection />
-      {/* <WhyChooseUs /> */}
       <Team />
-      {/* <FAQ /> */}
-      {/* <Testimonial /> */}
       <Footer />
     </>
   );

@@ -85,29 +85,25 @@ const SRBNavbar = () => {
                       Services
                     </Link>
                   </div>
-                  <div className="cursor-pointer hover:text-white transition-all">
+                  {/* <div className="cursor-pointer hover:text-white transition-all">
                     <Link to="/dynamic" onClick={closeOverlay}>
                       Work Sample
                     </Link>
-                  </div>
+                  </div> */}
                 </section>
-                <section>
-               
-                     
-                </section>
+                <section></section>
               </div>
               <div className="flex items-start gap-3 flex-col  sm:flex-row  sm:gap-8  text-xl">
                 <div className="cursor-pointer hover:text-white">
                   <Link to="/web-devlopment" onClick={closeOverlay}>
-                   Web development
+                    Web development
                   </Link>
                 </div>
                 <div className="cursor-pointer hover:text-white">
                   <Link to="/social-media-handeling" onClick={closeOverlay}>
-                    Social Media Handeling 
+                    Social Media Handeling
                   </Link>
                 </div>
-                 
               </div>
             </div>
           </div>

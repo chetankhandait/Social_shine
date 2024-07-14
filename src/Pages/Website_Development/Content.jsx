@@ -44,15 +44,15 @@ function Content() {
             alt="Web Design Importance"
             className="w-96 h-auto mb-4 rounded"
           />
-          <p className="text-lg leading-8 mb-4">
+          <p className="text-lg leading-9 mb-4">
             In the bustling landscape of digital business, finding the right web
             design and development partner can be a game-changer. Your website
             isn't just a digital placeholder; it's a crucial tool for
             establishing your brand's online presence, connecting with your
             target audience, and driving conversions. In the vibrant tech hub of
-            Bangalore, DigiMark Agency stands out as a leading web design and
-            development company, delivering top-notch services to businesses of
-            all sizes.
+            Bangalore, Social Shine Agency stands out as a leading web design
+            and development company, delivering top-notch services to businesses
+            of all sizes.
           </p>
           <p className="text-lg leading-9 mb-4">
             With a team of experienced professionals, Social Shine offers

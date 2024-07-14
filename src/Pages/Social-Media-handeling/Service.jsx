@@ -1,4 +1,3 @@
-
 const Service = () => {
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-8" id="service">
@@ -22,7 +21,9 @@ const Service = () => {
                   Social Media Strategy
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  We develop comprehensive social media strategies tailored to your business goals, ensuring a cohesive and effective online presence.
+                  We develop comprehensive social media strategies tailored to
+                  your business goals, ensuring a cohesive and effective online
+                  presence.
                 </p>
               </div>
             </div>
@@ -38,7 +39,9 @@ const Service = () => {
                   Content Creation
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  Our team creates engaging and visually appealing content that resonates with your audience, driving engagement and brand loyalty.
+                  Our team creates engaging and visually appealing content that
+                  resonates with your audience, driving engagement and brand
+                  loyalty.
                 </p>
               </div>
             </div>
@@ -54,7 +57,9 @@ const Service = () => {
                   Community Management
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  We manage your social media communities by fostering meaningful interactions, responding to comments, and engaging with your audience.
+                  We manage your social media communities by fostering
+                  meaningful interactions, responding to comments, and engaging
+                  with your audience.
                 </p>
               </div>
             </div>
@@ -70,7 +75,9 @@ const Service = () => {
                   Analytics and Reporting
                 </h4>
                 <p className="mt-2 text-base text-gray-500">
-                  We provide detailed analytics and reports to track the performance of your social media campaigns, ensuring data-driven decisions for continuous improvement.
+                  We provide detailed analytics and reports to track the
+                  performance of your social media campaigns, ensuring
+                  data-driven decisions for continuous improvement.
                 </p>
               </div>
             </div>
@@ -78,7 +85,7 @@ const Service = () => {
         </div>
         <div className="flex-1 mt-10 lg:mt-0">
           <img
-            src="/Wall post-amico.svg"
+            src="/start-up.png"
             alt="Social Media Management"
             className="w-full rounded-lg"
           />

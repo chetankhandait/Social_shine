@@ -8,15 +8,13 @@ import ServiceInformation from "./ServiceInformation";
 
 const SeprateService = () => {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <>
       <AboutIntro />
-
       <ServiceInformation />
       <ServicesSection />
       <Solutions />
       <Footer />
-    </div>
+    </>
   );
 };
 

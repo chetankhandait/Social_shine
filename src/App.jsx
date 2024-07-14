@@ -17,7 +17,7 @@ const App = () => {
     <BrowserRouter basename="/">
       <ScrollToTop />
       {/* <FloatingNav/> */}
-       
+
       <SRBNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,10 +25,11 @@ const App = () => {
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/web-devlopment" element={<WebsiteDevlopment />} />
-        <Route path="/social-media-handeling" element={<SocialMediaHandeling />} />
-        <Route path="/work-sample" element={<WorkSample />} />
-
-        
+        <Route
+          path="/social-media-handeling"
+          element={<SocialMediaHandeling />}
+        />
+        {/* <Route path="/work-sample" element={<WorkSample />} /> */}
       </Routes>
     </BrowserRouter>
   );
