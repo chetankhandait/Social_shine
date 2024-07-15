@@ -37,14 +37,14 @@ const ContactSection = () => {
                   <FaEnvelope className="text-2xl text-blue-600" />
                   <div>
                     <h3 className="text-lg font-semibold">Our email</h3>
-                    <p className="text-gray-600">hello@example.com</p>
+                    <p className="text-gray-600">contact@socialshinee.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <FaPhoneAlt className="text-2xl text-blue-600" />
                   <div>
                     <h3 className="text-lg font-semibold">Call us</h3>
-                    <p className="text-gray-600">+123 456 7892</p>
+                    <p className="text-gray-600">+91 9356794758 <br/> +91 88789 31385  </p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -56,13 +56,13 @@ const ContactSection = () => {
                 </div>
               </div>
               <div className="flex space-x-4 mt-8">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=61557150837573">
                   <FaFacebook className="text-2xl hover:text-gray-600 text-blue-600" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/socialshine.in/">
                   <FaInstagram className="text-2xl hover:text-gray-600 text-blue-600" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/socialshine/?viewAsMember=true">
                   <FaLinkedinIn className="text-2xl hover:text-gray-600 text-blue-600" />
                 </a>
               </div>
@@ -149,7 +149,7 @@ const ContactSection = () => {
           </div>
           <div className="mt-12 p-10">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24144.57662277449!2d-74.01152400447836!3d40.706005836892565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3165ab3e7d%3A0x7647a1b67cb61a4f!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1622045795299!5m2!1sen!2sin"
+              src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.429579276453!2d79.98446571028953!3d23.191010278968715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981a8d6aaaaaaad%3A0xfad1b073dfb80ffd!2sJabalpur%20Engineering%20College!5e0!3m2!1sen!2sin!4v1721062188325!5m2!1sen!2sin"
               width="100%"
               height="300"
               style={{ border: 0 }}
