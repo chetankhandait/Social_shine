@@ -7,11 +7,12 @@ const faqData = [
   },
   {
     header: "How long does it take to see results from social media campaigns?",
-    text: "The timeline for seeing results varies based on campaign goals and strategies. Typically, initial results can be seen within a few weeks, with ongoing optimizations for better performance.",
+    text: "The timeline for seeing results from social media campaigns varies based on specific campaign goals and strategies. Typically, you can start noticing initial results within a few weeks, with increased engagement and awareness. To achieve better performance and sustained growth, ongoing optimizations and adjustments are essential throughout the campaign.",
   },
   {
-    header: "Do you provide analytics and reporting for social media campaigns?",
-    text: "Yes, we provide detailed analytics and reporting to track the performance of social media campaigns, measure ROI, and make informed decisions for optimization.",
+    header:
+      "Do you provide analytics and reporting for social media campaigns?",
+    text: "We measure success through various metrics such as engagement rates, follower growth, website traffic, and conversion rates. We provide detailed monthly reports to track progress and adjust strategies as needed.",
   },
   {
     header: "Can you help with developing a social media strategy?",
@@ -28,6 +29,10 @@ const faqData = [
   {
     header: "What is your approach to community management?",
     text: "Our approach focuses on building and nurturing communities around your brand, fostering meaningful interactions, addressing concerns promptly, and enhancing brand loyalty.",
+  },
+  {
+    header: " How often will you post on our social media accounts?",
+    text: " The posting frequency depends on the plan you choose and your specific needs. Typically, we recommend posting at least 3-5 times per week to maintain engagement.",
   },
 ];
 

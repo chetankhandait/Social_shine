@@ -25,7 +25,7 @@ const steps = [
     title: "Develop and Prototype",
     description:
       "Once the design is approved, we move to the development phase. We build a functional prototype of your website, integrating your content and ensuring everything works seamlessly.",
-    icon: <FaLaptopCode  fontSize={20}/>,
+    icon: <FaLaptopCode fontSize={20} />,
   },
   {
     title: "Launch Your Website",
@@ -95,13 +95,10 @@ const Process = () => {
                 </div>
               </div>
               <div className="text-center ml-6 lg:ml-0 lg:mt-10">
-                <h3 className= " flex items-center gap-4 text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-
-                   
-                  
+                <h3 className=" flex items-center text-left gap-4 text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   {step.title}
                 </h3>
-                <h4 className="mt-2 text-base text-gray-700">
+                <h4 className="mt-2 text-base text-left text-gray-700">
                   {step.description}
                 </h4>
               </div>

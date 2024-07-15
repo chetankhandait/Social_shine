@@ -6,16 +6,13 @@ const testimonials = [
     quote:
       "Social Shine transformed our outdated website into a modern, user-friendly platform. Our traffic increased by 50% in just the first month!",
     name: "Move the Dance Space",
-     
   },
   {
     image: "./Testinomilal/blackleaf.jpg",
     quote:
       "Their app development skills are top-notch! The app they built for us has been a game-changer for our business.",
     name: "Blackleaf Properties",
-     
   },
-  
 ];
 
 const Testimonial = () => {
@@ -42,7 +39,7 @@ const Testimonial = () => {
         <div className="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
 
         <div className="container flex flex-col justify-center w-full h-full px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-          <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+          <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white mt-4">
             What our <span className="text-blue-500">customers</span> <br /> are
             saying
           </h1>
