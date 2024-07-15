@@ -30,19 +30,14 @@ const Footer = () => {
       </div>
       <div className="mt-12 flex space-x-6">
         <a
-          href="#"
+          href="https://www.facebook.com/profile.php?id=61557150837573"
           className="text-white hover:text-gray-400 transition duration-300"
         >
           <FaFacebookF size={24} />
         </a>
+      
         <a
-          href="#"
-          className="text-white hover:text-gray-400 transition duration-300"
-        >
-          <FaTwitter size={24} />
-        </a>
-        <a
-          href="#"
+          href="https://www.linkedin.com/company/socialshine/?viewAsMember=true"
           className="text-white hover:text-gray-400 transition duration-300"
         >
           <FaLinkedinIn size={24} />
@@ -53,12 +48,7 @@ const Footer = () => {
         >
           <FaInstagram size={24} />
         </a>
-        <a
-          href="#"
-          className="text-white hover:text-gray-400 transition duration-300"
-        >
-          <FaYoutube size={24} />
-        </a>
+         
       </div>
       {/* <div className="mt-8 text-gray-400 text-sm text-center">
         © 2024 Cave Social | All rights reserved |{" "}
