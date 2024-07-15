@@ -1,6 +1,7 @@
  
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -24,9 +25,13 @@ const Hero = () => {
               we excel in crafting unique brand identities and delivering
               impactful digital strategies.
             </p>
+            <Link to="/about-us">
+
+              
             <button className="bg-white text-black px-6 py-2 rounded font-bold">
               Discover More
             </button>
+            </Link>
           </div>
         </div>
         <div className="  bg-blue-500 w-1/2 flex flex-col justify-center items-center text-center p-8 "> 
