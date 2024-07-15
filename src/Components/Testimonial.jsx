@@ -4,25 +4,18 @@ const testimonials = [
   {
     image: "./Testinomilal/movethedanceSpace.jpg",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa aperiam dolorum, obcaecati corrupti aspernatur a.",
-    name: "Ronik Ederson",
-    position: "Marketing Manager at Stech",
+      "Social Shine transformed our outdated website into a modern, user-friendly platform. Our traffic increased by 50% in just the first month!",
+    name: "Move the Dance Space",
+     
   },
   {
     image: "./Testinomilal/blackleaf.jpg",
     quote:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    name: "Sarah Johnson",
-    position: "CEO at Techies",
+      "Their app development skills are top-notch! The app they built for us has been a game-changer for our business.",
+    name: "Blackleaf Properties",
+     
   },
-  {
-    image:
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-    quote:
-      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    name: "James Anderson",
-    position: "Developer at Devs",
-  },
+  
 ];
 
 const Testimonial = () => {
