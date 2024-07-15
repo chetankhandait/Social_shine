@@ -40,7 +40,7 @@ const ServiceGrid = () => {
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-blue-600 bg-opacity-75 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-300">
             <h3 className="font-bold text-lg sm:text-2xl text-white">
-              Mobile App Development
+            Cloud Services
             </h3>
             <p className="text-white text-center p-6 text-base sm:text-xl">
               Create intuitive and engaging mobile applications.
@@ -57,10 +57,10 @@ const ServiceGrid = () => {
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-blue-600 bg-opacity-75 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-300">
             <h3 className="font-bold text-lg sm:text-2xl text-white">
-              Mobile App Development
+           Video Editing Services 
             </h3>
             <p className="text-white text-center p-6 text-base sm:text-xl">
-              Create intuitive and engaging mobile applications.
+              We Create Engaging Content 
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ const ServiceGrid = () => {
               Marketing
             </h3>
             <p className="text-white text-center p-6 text-base sm:text-xl">
-              Create intuitive and engaging mobile applications.
+              Marketing to boost your presence 
             </p>
           </div>
         </div>
