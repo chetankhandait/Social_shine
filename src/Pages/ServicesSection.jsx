@@ -6,46 +6,53 @@ const services = [
   
    
   {
+      route:'/web-devlopment',
     title: "Web Design & Development",
    
     image: "./developer-activity-animate.svg",
     description: "Let us bring your vision to life with our creative and responsive web design and development services..."
   },
   {
+    route:'/social-media-handeling',
     title: "App Development",
      
     image: "./usability-testing-animate.svg",
     description: "Be unique with our App Development services. We craft user-friendly and feature-rich apps that..."
   },
   {
+    route:'/contact-us',
     title: "Website Maintenance",
     
     image: "./website-maintence.svg",
     description: "Ensuring a smooth and secure online experience with regular updates, optimizations, and ..."
   },
   {
+    route:'/contact-us',
     title: "Social Media Marketing",
     
     image: "./social-networking-animate.svg",
     description: "Boost your online presence and reach your target audience effectively with our comprehensive digital marketing solutions..."
   },
   {
+    route:'/contact-us',
     title: "E-Commerce Solutions",
      
     image: "./ecommerce-web-page-animate.svg",
     description: "Providing robust and scalable e-commerce solutions to help you set up and manage your online store effectively..."
   },
   {
+    route:'/contact-us',
     title: "Content Creator",
     
     image: "./content-creator-animate.svg",
-    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+    description: "Delivering comprehensive and scalable solutions to help you create, manage, and optimize your online content effectively."
   },
   {
+    route:'/contact-us',
     title: "Meta Ads",
     
     image: "./ads.svg",
-    description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione."
+    description: "Offering robust and scalable advertising solutions to help you create, manage, and optimize your Meta (Facebook) ads effectively."
   },
   
 ];
@@ -59,7 +66,7 @@ const ServicesSection = () => {
     <section className='grid  grid-cols-1 sm:grid-cols-4  gap-4  my-6 mx-6'>
       {services.map((service, index) => (
         <div key={index}>
-          <a href="#" className="group relative block bg-white">
+          <a href={service.route} className="group relative block bg-white">
   <img
     alt={service.name}
     src={service.image}
