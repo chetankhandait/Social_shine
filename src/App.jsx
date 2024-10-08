@@ -12,6 +12,7 @@ import FloatingNav from "./Components/FloatingNavbar";
 import SRBNavbar from "./Components/SRBNavbar";
 import WebsiteDevlopment from "./Pages/Website_Development/WebsiteDevlopment";
 import SocialMediaHandeling from "./Pages/Social-Media-handeling/SocialMediaHandeling";
+import Hiring from "./Pages/Hiring";
 const App = () => {
   return (
     <BrowserRouter basename="/">
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<SeprateService />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/hiring" element={<Hiring />} />
         <Route path="/web-devlopment" element={<WebsiteDevlopment />} />
         <Route
           path="/social-media-handeling"
