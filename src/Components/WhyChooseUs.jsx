@@ -77,10 +77,10 @@ const WhyChooseUs = () => {
                 }
               
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-white">
+              <h3 className="text-2xl font-bold mb-4 text-white ">
                 {sections[selected].title}
               </h3>
-              <p className="text-gray-300  ">{sections[selected].description}</p>
+              <p className="text-gray-300 text-center  ">{sections[selected].description}</p>
             </div>
           </div>
         </div>

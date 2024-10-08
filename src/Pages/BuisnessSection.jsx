@@ -17,7 +17,7 @@ const BuisnessSection = () => {
             <div className="flex flex-col justify-start">
               <h2 className="text-3xl font-semibold my-4">Our Story</h2>
               <p className="text-gray-300 mb-4">
-                Founded in [Year], [Agency Name] has been dedicated to helping
+                Founded in 2023 , Social Shine  has been dedicated to helping
                 businesses grow their online presence through innovative and
                 data-driven social media strategies.
               </p>

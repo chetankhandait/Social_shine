@@ -50,7 +50,7 @@ const AboutUs = () => {
           </p>
 
           <Link to="/about-us">
-            <button className="bg-blue-500 text-white py-2 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
+            <button className="bg-blue-500 text-white py-3.5 px-4 rounded-full font-bold hover:bg-blue-600 transition-colors duration-300">
               More Details about us ➤➤
             </button>
           </Link>
