@@ -8,11 +8,22 @@ import SeprateNavbar from "./SeprateNavbar";
 import Testimonial from "../Components/Testimonial";
 import Navbar from "../Components/Navbar";
 import BusinessSection from "./BuisnessSection";
+import { Helmet } from "react-helmet-async";
 // import Navbar from "../Components/Navbar";
 
 const AboutUs = () => {
   return (
     <>
+
+<Helmet>
+  <title>About Us</title>
+  <link rel="canonical" href="/about-us" />
+  <meta
+    name="description"
+    content="Social Shine is a top digital marketing agency in Jabalpur, India, offering 360° solutions to enhance your brand's online presence and growth."
+  />
+</Helmet>
+
       <AboutIntro />
       <BusinessSection />
       {/* <Team /> */}

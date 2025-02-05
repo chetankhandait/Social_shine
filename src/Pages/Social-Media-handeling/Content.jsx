@@ -21,7 +21,7 @@ function Content() {
     },
     {
       id: "Websites_FAQs",
-      text: "Some FAQs For Your Convinience",
+      text: "Some FAQs For Your Convenience",
     },
     {
       id: "Contact",

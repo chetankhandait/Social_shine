@@ -10,7 +10,7 @@ function ServiceInfo({ data }) {
                 <span className="">Website Development</span>
                 <br />
                 <span className=" text-indigo-600">
-                  Provide solutions to small Buisness
+                  Provide solutions to small Businesses
                 </span>
               </h1>
               <p className="mt-3 text-base text-[#0e0f11] sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-lg">

@@ -224,7 +224,7 @@ const servicesData = [
           "Social Media Services We Have For You",
           "Technologies We Use For Social Media Management",
           "Why You Should Hire Us",
-          "Some FAQs For Your Convenience",
+          "Some FAQs For Your Convinience%",
           "Get Ready! Take Your Quotation",
           "Explore Our More Services",
           "What Makes Us Special",

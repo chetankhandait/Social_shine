@@ -13,11 +13,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Social Shine:Digal Marketing Agency</title>
+        <title>Social Shine| Digal Marketing Agency</title>
         <link rel="canonical" href="/" />
         <meta
           name="description"
-          content="Discover how recognised social media marketing company Social Shine increases their online visibility with professional website and app development services. "
+          content="Discover how Social Shine, a digital marketing and social media agency in Jabalpur, India, enhances online visibility with expert website and app development services. We provide 360° digital solutions to elevate your brand and drive measurable growth."
         />
       </Helmet>
       <div>

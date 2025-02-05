@@ -71,6 +71,16 @@ const ContactSection = () => {
 
   return (
     <>
+
+<Helmet>
+  <title>Contact Us | Social Shine</title>
+  <link rel="canonical" href="/contact-us" />
+  <meta
+    name="description"
+    content="Get in touch with Social Shine for personalized digital marketing solutions. Contact us today to discuss how we can enhance your brand's online presence and drive business growth."
+  />
+</Helmet>
+
       <div className="relative bg-black py-16">
         <div className="py-16">
           <p className="text-center text-white font-bold text-5xl tracking-wide mt-6">
