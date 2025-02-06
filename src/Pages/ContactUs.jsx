@@ -10,6 +10,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import Footer from "../Components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
